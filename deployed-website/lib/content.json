@@ -192,7 +192,23 @@
   "join": {
     "title": "STAY IN THE LOOP",
     "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
-    "backgroundImage": "/images/runners-motion-blur.png"
+    "backgroundImage": "/images/runners-motion-blur.png",
+    "ctaTitle": "READY TO",
+    "ctaSubtitle": "RUN WITH US?",
+    "ctaDescription": "Join thousands of runners worldwide who've found their tribe, pushed their limits, and discovered what they're truly capable of.",
+    "ctaButtonText": "JOIN WADADA NOW",
+    "stats": [
+      { "label": "Global Runners", "value": "50K+", "icon": "users" },
+      { "label": "Cities Worldwide", "value": "120+", "icon": "map-pin" },
+      { "label": "Days of Running", "value": "365", "icon": "calendar" },
+      { "label": "Goals Achieved", "value": "10K+", "icon": "trophy" }
+    ],
+    "trustIndicators": [
+      "BEGINNER FRIENDLY",
+      "GLOBAL COMMUNITY",
+      "PROVEN RESULTS",
+      "FREE TO JOIN"
+    ]
   },
   "chatbot": {
     "title": "Wadada Assistant",
