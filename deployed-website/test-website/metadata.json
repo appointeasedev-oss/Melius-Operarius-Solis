@@ -1,16 +1,7 @@
+
 {
-  "key": "value",
   "title": "WADADA RUN CLUB",
   "description": "Global Running Community - Movement isn't an option, it's a lifestyle.",
-  "keywords": [
-    "running",
-    "community",
-    "fitness",
-    "Wadada"
-  ],
-  "author": "Wadada Run Club",
-  "_metadata": {
-    "createdAt": "Sun, 15 Mar 2026 12:24:33 GMT",
-    "updatedAt": "Sun, 15 Mar 2026 12:25:44 GMT"
-  }
+  "keywords": ["running", "community", "fitness", "Wadada"],
+  "author": "Wadada Run Club"
 }
