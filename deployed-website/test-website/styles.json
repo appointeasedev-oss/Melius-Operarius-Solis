@@ -1,5 +1,5 @@
+
 {
-  "key": "value",
   "colors": {
     "primary": "#000000",
     "secondary": "#ffffff",
@@ -13,9 +13,5 @@
     "mono": "GeistMono"
   },
   "borderRadius": "0.5rem",
-  "gridOpacity": "0.3",
-  "_metadata": {
-    "createdAt": "Sun, 15 Mar 2026 12:24:39 GMT",
-    "updatedAt": "Sun, 15 Mar 2026 12:25:26 GMT"
-  }
+  "gridOpacity": "0.3"
 }
