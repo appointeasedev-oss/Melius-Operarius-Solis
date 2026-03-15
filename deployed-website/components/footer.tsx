@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Instagram, Twitter, Facebook, MapPin, Mail, Phone } from "lucide-react"
+import { content } from "@/lib/content"
 
 export default function Footer() {
   return (
@@ -20,30 +21,29 @@ export default function Footer() {
             viewport={{ once: true }}
             className="lg:col-span-2"
           >
-            <h3 className="text-3xl md:text-4xl font-black tracking-wider text-gray-900 mb-4">WADADA RUN CLUB</h3>
+            <h3 className="text-3xl md:text-4xl font-black tracking-wider text-gray-900 mb-4">{content.brand.fullName}</h3>
             <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-md">
-              Movement isn't an option, it's a lifestyle. Join our global community of runners who believe in pushing
-              boundaries and celebrating every step of the journey.
+              {content.brand.description}
             </p>
 
             {/* Social Links */}
             <div className="flex space-x-4">
               <a
-                href="#"
+                href={content.footer.social.instagram}
                 className="w-12 h-12 bg-gray-900 hover:bg-gray-700 text-white rounded-full flex items-center justify-center transition-colors duration-300"
                 aria-label="Follow us on Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="#"
+                href={content.footer.social.twitter}
                 className="w-12 h-12 bg-gray-900 hover:bg-gray-700 text-white rounded-full flex items-center justify-center transition-colors duration-300"
                 aria-label="Follow us on Twitter"
               >
                 <Twitter size={20} />
               </a>
               <a
-                href="#"
+                href={content.footer.social.facebook}
                 className="w-12 h-12 bg-gray-900 hover:bg-gray-700 text-white rounded-full flex items-center justify-center transition-colors duration-300"
                 aria-label="Follow us on Facebook"
               >
@@ -61,31 +61,13 @@ export default function Footer() {
           >
             <h4 className="text-xl font-bold text-gray-900 mb-6 tracking-wide">QUICK LINKS</h4>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
-                  Join Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
-                  Find Your Chapter
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
-                  Training Plans
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
-                  Community
-                </a>
-              </li>
+              {content.footer.quickLinks.map((link) => (
+                <li key={link.name}>
+                  <a href={link.href} className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">
+                    {link.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
 
@@ -100,24 +82,24 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <MapPin size={18} className="text-gray-600" />
-                <span className="text-gray-600 font-medium">Kingston, Jamaica</span>
+                <span className="text-gray-600 font-medium">{content.footer.contact.address}</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-gray-600" />
                 <a
-                  href="mailto:hello@wadadarun.club"
+                  href={`mailto:${content.footer.contact.email}`}
                   className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium"
                 >
-                  hello@wadadarun.club
+                  {content.footer.contact.email}
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={18} className="text-gray-600" />
                 <a
-                  href="tel:+1876555WADA"
+                  href={`tel:${content.footer.contact.phone.replace(/\s+/g, '')}`}
                   className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium"
                 >
-                  +1 (876) 555-WADA
+                  {content.footer.contact.phone}
                 </a>
               </div>
             </div>
@@ -133,9 +115,9 @@ export default function Footer() {
           className="border-t border-gray-200 pt-12 mb-12"
         >
           <div className="max-w-2xl mx-auto text-center">
-            <h4 className="text-2xl md:text-3xl font-black text-gray-900 mb-4 tracking-wide">STAY IN THE LOOP</h4>
+            <h4 className="text-2xl md:text-3xl font-black text-gray-900 mb-4 tracking-wide">{content.join.title}</h4>
             <p className="text-lg text-gray-600 mb-8">
-              Get the latest updates on runs, events, and community news delivered to your inbox.
+              {content.join.subtitle}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
@@ -159,7 +141,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0"
         >
-          <p className="text-gray-600 font-medium">© 2024 Wadada Run Club. All rights reserved.</p>
+          <p className="text-gray-600 font-medium">{content.footer.copyright}</p>
 
           <div className="flex space-x-6">
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 font-medium">

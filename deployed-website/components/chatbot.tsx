@@ -10,6 +10,7 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { cn } from "@/lib/utils"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
+import { content } from "@/lib/content"
 
 interface Message {
   role: "user" | "bot"
@@ -24,7 +25,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "bot",
-      content: "Hi! I'm the Wadada Run Club assistant. How can I help you today?",
+      content: content.chatbot.welcomeMessage,
     },
   ])
   const [input, setInput] = useState("")
@@ -105,7 +106,7 @@ export default function Chatbot() {
                 <CardHeader className="flex flex-row items-center justify-between">
                   <CardTitle className="text-lg font-bold flex items-center gap-2">
                     <Bot className="text-primary" />
-                    Wadada Assistant
+                    {content.chatbot.title}
                   </CardTitle>
                   <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
                     <X className="h-4 w-4" />
@@ -186,7 +187,7 @@ export default function Chatbot() {
                     <Input
                       value={input}
                       onChange={(e) => setInput(e.target.value)}
-                      placeholder="Ask about the club..."
+                      placeholder={content.chatbot.placeholder}
                       disabled={isLoading}
                       className="flex-1"
                     />
