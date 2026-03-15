@@ -38,49 +38,49 @@
         "alt": "Female runner with motion blur"
       },
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DQ2brNc5Vszxllx17YNA6JqGqiHaRm.png",
-        "alt": "Male runner leading group"
+        "image": "https://tse3.mm.bing.net/th/id/OIP.G2qfsl0sSvP3pRlsLBjdkgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "alt": " leading group"
       }
     ],
     "ctaText": "Join Us"
   },
   "mission": {
-    "title": "OUR MISSION",
-    "statement": "At Wadada Run Club, we believe movement isn't an option, it's a lifestyle. Born from the vibrant spirit of Jamaica, we unite runners from every corner of the globe who share our passion for pushing boundaries. Whether you're chasing sunrise through Kingston streets or conquering mountain trails, we're here to fuel your journey. Our community thrives on the rhythm of footsteps, the power of perseverance, and the joy of shared victories. Join us as we run not just for fitness, but for freedom, friendship, and the pure love of movement."
+    "title": "About",
+    "statement": "At Blanxiro Studio, we believe creativity isn't just a hobby, it's a lifestyle. Born from the vibrant spirit of artistic innovation, we unite creators from every corner of the world who share our passion for designing, producing, and sharing their work. Whether you're sketching inspiration in your studio or bringing your designs to life on our platform, we're here to manage every step of the process so you can focus on creating. Our community thrives on the energy of imagination, the power of collaboration, and the joy of shared achievements. Join us as we create not just for art, but for expression, connection, and the pure love of making."
   },
   "community": {
-    "title": "ALL RUNNERS WELCOME",
-    "subtitle": "Every runner has a unique journey. Here are just a few stories from our inclusive community.",
+    "title": "ALL ARTISTS WELCOME",
+    "subtitle": "At Blanxiro Studio, artists design, we produce, pack, and deliver, supporting every step so creators can focus on their craft.",
     "timeline": [
       {
         "id": 1,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RJ3iTXUn5SUexF6nHMZYhMoQLNCboK.png",
-        "alt": "Woman runner in artistic motion blur",
-        "title": "Every Step Counts",
-        "description": "From your first jog around the block to your hundredth marathon, every runner has a story. At Wadada, we celebrate beginners who are just lacing up their shoes for the first time. Your pace doesn't matter\u2014your passion does. What are you waiting for?",
+        "image": "https://i.pinimg.com/1200x/df/2f/1b/df2f1b4745646e7f2b33de090fb3d679.jpg",
+        "alt": "Designer working on a sketch",
+        "title": "Register & Design",
+        "description": "Sign up with Blanxiro Studio and start designing your unique creations. Both emerging and established artists are welcome to showcase their talent in our community. Your creativity is the first step toward making your designs real.",
         "layout": "left"
       },
       {
         "id": 2,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LN9OPh9hw0b9rwSPRSslHoejcfoKHe.png",
-        "alt": "Male runner with determination and focus",
-        "title": "Find Your Rhythm",
-        "description": "Whether you're chasing personal records or simply chasing the sunrise, our community embraces every type of runner. From speed demons to mindful joggers, from trail blazers to track stars\u2014there's a place for you here. The only question is: what are you waiting for?",
+        "image": "https://i.pinimg.com/1200x/77/d2/05/77d2051f4f6bcb86b0d8bee87a2ac5a9.jpg",
+        "alt": "Providing customer details for an order",
+        "title": "Place Your Order",
+        "description": "Once your design is ready, place an order and provide us with the customer details. This ensures your creation reaches the right person while keeping your brand and design front and center.",
         "layout": "right"
       },
       {
         "id": 3,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1FdGyjVpWQANGzsDWpoPIvF5SVI2za.png",
-        "alt": "Runner in dynamic motion showing strength and grace",
-        "title": "Join the Movement",
-        "description": "Running isn't just about the miles\u2014it's about the moments. The early morning conversations, the shared struggles, the collective victories. At Wadada Run Club, you're not just joining a group, you're joining a family. So lace up, step out, and discover what you're truly capable of. Seriously, what are you waiting for?",
+        "image": "https://img.fantaskycdn.com/0eaafeb6f4dff44f72c7491a4ceb41e8_2056x.jpeg",
+        "alt": "Finished clothing with custom embroidery",
+        "title": "We Ship Your Design",
+        "description": "We produce, pack, and deliver your design with your name and artwork printed or embroidered on the clothing. Every order reflects your creativity, ready to impress and delight your customers.",
         "layout": "left"
       }
     ]
   },
   "testimonials": {
-    "title": "See what our RUNNERS say.",
-    "subtitle": "Real stories from real runners who found their stride with Wadada Run Club.",
+    "title": "See what our ARTISTS say.",
+    "subtitle": "Real stories from real creators who brought their designs to life with Blanxiro Studio.",
     "list": [
       {
         "tempId": 0,
@@ -141,100 +141,19 @@
         "testimonial": "The training plans at Wadada are incredible. I went from barely finishing a 5K to qualifying for Boston in just two years.",
         "by": "Michael Chen, Boston Qualifier",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=MichaelChen&backgroundColor=84cc16&textColor=ffffff"
-      },
-      {
-        "tempId": 10,
-        "testimonial": "What I love about Wadada is the diversity. Runners of all ages, backgrounds, and abilities come together with one shared passion.",
-        "by": "Sofia Rodriguez, Diversity Champion",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=SofiaRodriguez&backgroundColor=a855f7&textColor=ffffff"
-      },
-      {
-        "tempId": 11,
-        "testimonial": "The accountability at Wadada is unmatched. When you know your running family is waiting for you, you show up no matter what.",
-        "by": "Tyler Brooks, Consistency King",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=TylerBrooks&backgroundColor=059669&textColor=ffffff"
-      },
-      {
-        "tempId": 12,
-        "testimonial": "Wadada's trail running group introduced me to the most beautiful places I never knew existed. Running became my way to explore the world.",
-        "by": "Nina Patel, Trail Explorer",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=NinaPatel&backgroundColor=0ea5e9&textColor=ffffff"
-      },
-      {
-        "tempId": 13,
-        "testimonial": "The post-run conversations at Wadada are as valuable as the runs themselves. We solve the world's problems one mile at a time.",
-        "by": "Robert Kim, Philosophy Runner",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=RobertKim&backgroundColor=dc2626&textColor=ffffff"
-      },
-      {
-        "tempId": 14,
-        "testimonial": "I never thought I'd be a runner, but Wadada's beginner-friendly approach made it possible. Now I can't imagine life without running.",
-        "by": "Jessica Martinez, Late Bloomer",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=JessicaMartinez&backgroundColor=7c3aed&textColor=ffffff"
-      },
-      {
-        "tempId": 15,
-        "testimonial": "The injury support at Wadada is incredible. When I was sidelined, they kept me motivated and helped me come back stronger.",
-        "by": "Daniel Park, Comeback Story",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=DanielPark&backgroundColor=ea580c&textColor=ffffff"
-      },
-      {
-        "tempId": 16,
-        "testimonial": "Wadada's charity runs give our miles meaning. We're not just running for ourselves, we're running to make a difference.",
-        "by": "Rachel Green, Charity Champion",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=RachelGreen&backgroundColor=16a34a&textColor=ffffff"
-      },
-      {
-        "tempId": 17,
-        "testimonial": "The technique workshops at Wadada transformed my running form. I'm faster and injury-free thanks to their expert guidance.",
-        "by": "Kevin Wong, Form Perfectionist",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=KevinWong&backgroundColor=2563eb&textColor=ffffff"
-      },
-      {
-        "tempId": 18,
-        "testimonial": "Wadada's virtual runs during lockdown kept me sane. Even when we couldn't run together, we stayed connected as a community.",
-        "by": "Amanda Foster, Virtual Warrior",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AmandaFoster&backgroundColor=be185d&textColor=ffffff"
-      },
-      {
-        "tempId": 19,
-        "testimonial": "The mentorship at Wadada is life-changing. Experienced runners take newcomers under their wing and share their wisdom generously.",
-        "by": "Carlos Mendez, Grateful Mentee",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=CarlosMendez&backgroundColor=0891b2&textColor=ffffff"
       }
     ]
   },
   "join": {
     "title": "STAY IN THE LOOP",
     "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
-    "backgroundImage": "/images/runners-motion-blur.png",
+    "backgroundImage": "https://tse3.mm.bing.net/th/id/OIP.G2qfsl0sSvP3pRlsLBjdkgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
     "ctaTitle": "READY TO",
-    "ctaSubtitle": "RUN WITH US?",
-    "ctaDescription": "Join thousands of runners worldwide who've found their tribe, pushed their limits, and discovered what they're truly capable of.",
-    "ctaButtonText": "JOIN WADADA NOW",
-    "ctaLink": "https://google.com",
-    "stats": [
-      {
-        "label": "Global Runners",
-        "value": "50K+",
-        "icon": "users"
-      },
-      {
-        "label": "Cities Worldwide",
-        "value": "120+",
-        "icon": "map-pin"
-      },
-      {
-        "label": "Days of Running",
-        "value": "365",
-        "icon": "calendar"
-      },
-      {
-        "label": "Goals Achieved",
-        "value": "10K+",
-        "icon": "trophy"
-      }
-    ],
+    "ctaSubtitle": "START YOU BUSINESS?",
+    "ctaDescription": "Turn your creativity into reality. At Blanxiro Studio, you design\u2014we produce, pack, and deliver. Focus on creating, we handle the rest.",
+    "ctaButtonText": "Join Blanxiro Studio",
+    "ctaLink": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAp5ETMpUREE4NEtLS1NKT0Y5OFNVVlpYMkM1MjlSNi4u&origin=lprLink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBpmueY5YMzVTQZT0JEtVr77VfYXONE5lUjPL1S4UOE-hQDXmPvaW5SItpoo_aem_3AjpJxBp7ce_zcTwYrofKA&route=shorturl",
+    "stats": null,
     "trustIndicators": [
       "BEGINNER FRIENDLY",
       "GLOBAL COMMUNITY",
@@ -250,36 +169,36 @@
   "footer": {
     "quickLinks": [
       {
-        "name": "Join Us",
-        "href": "#join"
+        "name": "Home",
+        "href": "#hero"
       },
       {
-        "name": "Find Your Chapter",
-        "href": "#"
-      },
-      {
-        "name": "Training Plans",
-        "href": "#"
-      },
-      {
-        "name": "Events",
-        "href": "#"
+        "name": "About",
+        "href": "#mission"
       },
       {
         "name": "Community",
-        "href": "#"
+        "href": "#community"
+      },
+      {
+        "name": "Testimonials",
+        "href": "#testimonials"
+      },
+      {
+        "name": "Join Us",
+        "href": "#join"
       }
     ],
     "contact": {
-      "address": "Kingston, Jamaica",
-      "email": "hello@wadadarun.club",
-      "phone": "+1 (876) 555-WADA"
+      "address": "Online,INDIA",
+      "email": "Khushankagrawal1209@gmail.com",
+      "phone": "+91 94144 58878"
     },
     "social": {
-      "instagram": "#",
+      "instagram": "https://www.instagram.com/blanxiro_studio/",
       "twitter": "#",
       "facebook": "#"
     },
-    "copyright": "\u00a9 2024 Wadada Run Club. All rights reserved."
+    "copyright": "\u00a9 2026 Blanxiro Studio. All rights reserved."
   }
 }
