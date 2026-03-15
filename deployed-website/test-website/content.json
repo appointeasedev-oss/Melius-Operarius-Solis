@@ -1,9 +1,9 @@
 {
   "brand": {
-    "name": "WADADA",
-    "fullName": "WADADA RUNING CLUB",
-    "tagline": "Global Running ",
-    "description": "Movement isn't an option, it's a lifestyle. Join our global community of runners who believe in pushing boundaries and celebrating every step of the journey."
+    "name": "Blanxiro Studio",
+    "fullName": "Blanxiro Studio",
+    "tagline": "You design. We produce, pack, and deliver.",
+    "description": "Style isn't just what you wear, it's how you live. Join our community of creators who believe in designing, producing, and delivering with passion every step of the way."
   },
   "navigation": [
     {
@@ -11,7 +11,7 @@
       "href": "#hero"
     },
     {
-      "name": "Mission",
+      "name": "About",
       "href": "#mission"
     },
     {
@@ -30,7 +30,7 @@
   "hero": {
     "slides": [
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-j46TPXDHzpn3M65wMva3qHPNhwokYn.png",
+        "image": "https://i.pinimg.com/736x/e3/3b/10/e33b10743a00dfe5552cb02c245f0367.jpg",
         "alt": "Group of runners in motion"
       },
       {
