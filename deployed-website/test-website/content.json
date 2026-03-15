@@ -153,7 +153,28 @@
     "ctaDescription": "Turn your creativity into reality. At Blanxiro Studio, you design\u2014we produce, pack, and deliver. Focus on creating, we handle the rest.",
     "ctaButtonText": "Join Blanxiro Studio",
     "ctaLink": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAp5ETMpUREE4NEtLS1NKT0Y5OFNVVlpYMkM1MjlSNi4u&origin=lprLink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBpmueY5YMzVTQZT0JEtVr77VfYXONE5lUjPL1S4UOE-hQDXmPvaW5SItpoo_aem_3AjpJxBp7ce_zcTwYrofKA&route=shorturl",
-    "stats": null,
+    "stats": [
+      {
+        "label": "Global Runners",
+        "value": "50K+",
+        "icon": "users"
+      },
+      {
+        "label": "Cities Worldwide",
+        "value": "120+",
+        "icon": "map-pin"
+      },
+      {
+        "label": "Days of Running",
+        "value": "365",
+        "icon": "calendar"
+      },
+      {
+        "label": "Goals Achieved",
+        "value": "10K+",
+        "icon": "trophy"
+      }
+    ],
     "trustIndicators": [
       "BEGINNER FRIENDLY",
       "GLOBAL COMMUNITY",
