@@ -106,32 +106,7 @@ export default function Footer() {
           </motion.div>
         </div>
 
-        {/* Newsletter Signup */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="border-t border-gray-200 pt-12 mb-12"
-        >
-          <div className="max-w-2xl mx-auto text-center">
-            <h4 className="text-2xl md:text-3xl font-black text-gray-900 mb-4 tracking-wide">{content.join.title}</h4>
-            <p className="text-lg text-gray-600 mb-8">
-              {content.join.subtitle}
-            </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 border-2 border-gray-300 rounded-md focus:border-gray-900 focus:outline-none text-gray-900 font-medium"
-              />
-              <button className="px-8 py-3 bg-gray-900 hover:bg-gray-700 text-white font-bold rounded-md transition-colors duration-300 tracking-wide">
-                SUBSCRIBE
-              </button>
-            </div>
-          </div>
-        </motion.div>
 
         {/* Bottom Bar */}
         <motion.div
