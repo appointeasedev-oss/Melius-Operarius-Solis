@@ -10,7 +10,7 @@ export default function Chatbot() {
 
   return (
     <>
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-[100]">
         <AnimatePresence>
           {isOpen && (
             <motion.div
@@ -18,9 +18,9 @@ export default function Chatbot() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0.9 }}
               transition={{ duration: 0.2 }}
-              className="fixed bottom-20 right-6 w-[calc(100vw-32px)] sm:w-[420px] md:w-[500px] max-h-[70vh] sm:max-h-[600px]"
+              className="fixed bottom-0 right-0 sm:bottom-24 sm:right-6 w-full sm:w-[420px] md:w-[500px] h-[100dvh] sm:h-[600px] max-h-[100dvh] sm:max-h-[calc(100vh-120px)]"
             >
-              <div className="bg-white rounded-lg shadow-2xl overflow-hidden border border-gray-200 flex flex-col h-full">
+              <div className="bg-white sm:rounded-lg shadow-2xl overflow-hidden border-t sm:border border-gray-200 flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b bg-gray-50">
                   <h3 className="font-bold text-gray-900">Chat Assistant</h3>
                   <Button 

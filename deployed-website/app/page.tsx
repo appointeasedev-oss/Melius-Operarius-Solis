@@ -8,6 +8,7 @@ import { StaggerTestimonials } from "@/components/ui/stagger-testimonials"
 import { motion } from "framer-motion"
 import SmoothScrollHero from "@/components/ui/smooth-scroll-hero"
 import Chatbot from "../components/chatbot"
+import Footer from "../components/footer"
 import { content } from "@/lib/content"
 
 export default function Page() {
@@ -96,6 +97,7 @@ export default function Page() {
           finalClipPercentage={70}
         />
       </section>
+      <Footer />
       <Chatbot />
     </div>
   )

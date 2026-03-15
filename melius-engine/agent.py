@@ -4,12 +4,14 @@ import glob
 import shutil
 from operarius import MeliusOperarius
 from sole import SoleManager
+from verify_pantry import PantryVerifier
 
 class MeliusEngine:
     def __init__(self):
         self.root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
         self.operarius = MeliusOperarius()
         self.sole_manager = SoleManager(self.root_dir)
+        self.verifier = PantryVerifier()
 
     def run(self):
         print("Starting Melius Operarius Engine...")
@@ -25,7 +27,10 @@ class MeliusEngine:
                 os.makedirs(dir_path, exist_ok=True)
             return
 
-        # 2. Run the main Operarius logic (Pantry-based)
+        # 2. Verify and Sync Pantry with local JSON files
+        self.verifier.verify_and_sync()
+
+        # 3. Run the main Operarius logic (Pantry-based)
         # This replaces the old event.json logic for website management
         self.operarius.run()
         
