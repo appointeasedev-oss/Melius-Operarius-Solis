@@ -18,12 +18,12 @@ export default function Page() {
   }))
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen" style={{ backgroundColor: 'var(--background)' }}>
       {/* Hero Section */}
       <HeroSection />
 
       {/* Mission Statement Section with Grid Background */}
-      <section id="mission" className="relative min-h-screen flex items-center justify-center py-20 bg-white">
+      <section id="mission" className="relative min-h-screen flex items-center justify-center py-20" style={{ backgroundColor: 'var(--background)' }}>
         {/* Subtle Grid Pattern */}
         <div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
@@ -41,7 +41,7 @@ export default function Page() {
       </section>
 
       {/* Timeline Section */}
-      <section id="community" className="relative py-20 bg-white">
+      <section id="community" className="relative py-20" style={{ backgroundColor: 'var(--background)' }}>
         {/* Subtle Grid Pattern */}
         <div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
@@ -60,7 +60,7 @@ export default function Page() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="relative py-20 bg-white">
+      <section id="testimonials" className="relative py-20" style={{ backgroundColor: 'var(--background)' }}>
         {/* Subtle Grid Pattern */}
         <div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 

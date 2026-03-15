@@ -25,8 +25,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ position, testimonial
       className={cn(
         "absolute left-1/2 top-1/2 cursor-pointer border-2 p-8 transition-all duration-500 ease-in-out",
         isCenter
-          ? "z-10 bg-gray-900 text-white border-gray-900"
-          : "z-0 bg-white text-gray-900 border-gray-200 hover:border-gray-400",
+          ? "z-10 text-white"
+          : "z-0 text-gray-900 border-gray-200 hover:border-gray-400",
       )}
       style={{
         width: cardSize,
@@ -39,6 +39,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ position, testimonial
           rotate(${isCenter ? 0 : position % 2 ? 2.5 : -2.5}deg)
         `,
         boxShadow: isCenter ? "0px 8px 0px 4px hsl(var(--border))" : "0px 0px 0px 0px transparent",
+        backgroundColor: isCenter ? 'var(--primary)' : 'var(--background)',
+        borderColor: isCenter ? 'var(--primary)' : 'var(--border)',
       }}
     >
       <span
@@ -106,7 +108,7 @@ export const StaggerTestimonials: React.FC = () => {
   }, [])
 
   return (
-    <div className="relative w-full overflow-hidden bg-white" style={{ height: 600 }}>
+    <div className="relative w-full overflow-hidden" style={{ height: 600, backgroundColor: 'var(--background)' }}>
       {testimonialsList.map((testimonial, index) => {
         const position =
           testimonialsList.length % 2 ? index - (testimonialsList.length + 1) / 2 : index - testimonialsList.length / 2
