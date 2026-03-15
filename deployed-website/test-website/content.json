@@ -197,6 +197,7 @@
     "ctaSubtitle": "RUN WITH US?",
     "ctaDescription": "Join thousands of runners worldwide who've found their tribe, pushed their limits, and discovered what they're truly capable of.",
     "ctaButtonText": "JOIN WADADA NOW",
+    "ctaLink": "https://google.com",
     "stats": [
       { "label": "Global Runners", "value": "50K+", "icon": "users" },
       { "label": "Cities Worldwide", "value": "120+", "icon": "map-pin" },

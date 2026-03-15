@@ -121,12 +121,14 @@ const SmoothScrollHero: React.FC<SmoothScrollHeroProps> = ({
             </div>
 
             {/* CTA Button */}
-            <LiquidButton
-              size="xxl"
-              className="font-bold text-xl tracking-wide px-12 py-4 bg-gray-900 hover:bg-gray-800 text-white border-2 border-gray-900 hover:scale-105 transition-all duration-300"
-            >
-              {content.join.ctaButtonText}
-            </LiquidButton>
+            <a href={content.join.ctaLink} target="_blank" rel="noopener noreferrer">
+              <LiquidButton
+                size="xxl"
+                className="font-bold text-xl tracking-wide px-12 py-4 bg-gray-900 hover:bg-gray-800 text-white border-2 border-gray-900 hover:scale-105 transition-all duration-300 cursor-pointer"
+              >
+                {content.join.ctaButtonText}
+              </LiquidButton>
+            </a>
 
             {/* Trust Indicators */}
             <div className="mt-12 pt-6 border-t border-white/20">
