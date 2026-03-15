@@ -11,7 +11,9 @@ GOOGLE_DRIVE_LINKS = {
     "styles.json": "https://drive.google.com/file/d/1VGG1VhIb5V0dJcv_s2FwdLCMQXgfP2Ku/view?usp=sharing",
 }
 
-LOCAL_FILES_PATH = "/home/ubuntu/Melius-Operarius-Solis/deployed-website/test-website"
+# Use relative path from the repository root
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOCAL_FILES_PATH = os.path.join(BASE_DIR, "deployed-website", "test-website")
 
 def get_google_drive_file_id(url):
     """Extracts the file ID from a Google Drive share URL."""
@@ -41,6 +43,12 @@ def download_file_from_google_drive(url):
 
 def sync_files():
     print("Starting Melius Engine synchronization...")
+    print(f"Target directory: {LOCAL_FILES_PATH}")
+
+    # Ensure the target directory exists
+    if not os.path.exists(LOCAL_FILES_PATH):
+        print(f"Error: Target directory {LOCAL_FILES_PATH} does not exist.")
+        return
 
     for filename, drive_link in GOOGLE_DRIVE_LINKS.items():
         if not drive_link:
