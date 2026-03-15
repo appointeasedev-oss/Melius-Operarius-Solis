@@ -1,189 +1,204 @@
 {
   "brand": {
-    "name": "WADADA",
-    "fullName": "WADADA RUNING CLUB",
-    "tagline": "Global Running ",
-    "description": "Movement isn't an option, it's a lifestyle. Join our global community of runners who believe in pushing boundaries and celebrating every step of the journey."
+    "name": "ROBOZONE",
+    "fullName": "ROBOZONE ROBOTICS CLUB",
+    "tagline": "Innovate. Build. Compete.",
+    "description": "ROBOZONE is where creativity meets engineering. Join our global community of robotics enthusiasts, engineers, and innovators who love building robots, coding AI, and competing at global events."
   },
   "navigation": [
-    { "name": "Home", "href": "#hero" },
-    { "name": "Mission", "href": "#mission" },
-    { "name": "Community", "href": "#community" },
-    { "name": "Testimonials", "href": "#testimonials" },
-    { "name": "Join Us", "href": "#join" }
+    {
+      "name": "Home",
+      "href": "#hero"
+    },
+    {
+      "name": "Mission",
+      "href": "#mission"
+    },
+    {
+      "name": "Community",
+      "href": "#community"
+    },
+    {
+      "name": "Testimonials",
+      "href": "#testimonials"
+    },
+    {
+      "name": "Join Us",
+      "href": "#join"
+    }
   ],
   "hero": {
     "slides": [
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-j46TPXDHzpn3M65wMva3qHPNhwokYn.png",
-        "alt": "Group of runners in motion"
+        "image": "https://images.unsplash.com/photo-1615905235551-449c3a470f28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Team assembling a robot"
       },
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oH2K0gw1HEqvYhhbwJrYbmkBrbksyk.png",
-        "alt": "Female runner with motion blur"
+        "image": "https://images.unsplash.com/photo-1590608897129-79c92c3a48df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Robotics competition with students"
       },
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DQ2brNc5Vszxllx17YNA6JqGqiHaRm.png",
-        "alt": "Male runner leading group"
+        "image": "https://images.unsplash.com/photo-1581091870623-2cfec1fae60c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Close-up of a robot's mechanical parts"
       }
     ],
     "ctaText": "Join Us"
   },
   "mission": {
     "title": "OUR MISSION",
-    "statement": "At Wadada Run Club, we believe movement isn't an option, it's a lifestyle. Born from the vibrant spirit of Jamaica, we unite runners from every corner of the globe who share our passion for pushing boundaries. Whether you're chasing sunrise through Kingston streets or conquering mountain trails, we're here to fuel your journey. Our community thrives on the rhythm of footsteps, the power of perseverance, and the joy of shared victories. Join us as we run not just for fitness, but for freedom, friendship, and the pure love of movement."
+    "statement": "At RoboZone, we empower students and enthusiasts to explore robotics. We foster creativity, engineering skills, and problem-solving through hands-on projects, competitions, and workshops. Our goal is to create a global community where ideas turn into robots and learning becomes a thrilling adventure."
   },
   "community": {
-    "title": "ALL RUNNERS WELCOME",
-    "subtitle": "Every runner has a unique journey. Here are just a few stories from our inclusive community.",
+    "title": "ALL ROBOTICS ENTHUSIASTS WELCOME",
+    "subtitle": "Every member has a unique journey. Here are just a few stories from our inclusive community.",
     "timeline": [
       {
         "id": 1,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-RJ3iTXUn5SUexF6nHMZYhMoQLNCboK.png",
-        "alt": "Woman runner in artistic motion blur",
-        "title": "Every Step Counts",
-        "description": "From your first jog around the block to your hundredth marathon, every runner has a story. At Wadada, we celebrate beginners who are just lacing up their shoes for the first time. Your pace doesn't matter—your passion does. What are you waiting for?",
+        "image": "https://images.unsplash.com/photo-1612831661823-b0b995a6e74d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Student assembling robot components",
+        "title": "First Steps in Robotics",
+        "description": "From your first circuit to your first autonomous robot, every member has a story. At RoboZone, we celebrate beginners and inspire them to build, code, and innovate.",
         "layout": "left"
       },
       {
         "id": 2,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-LN9OPh9hw0b9rwSPRSslHoejcfoKHe.png",
-        "alt": "Male runner with determination and focus",
-        "title": "Find Your Rhythm",
-        "description": "Whether you're chasing personal records or simply chasing the sunrise, our community embraces every type of runner. From speed demons to mindful joggers, from trail blazers to track stars—there's a place for you here. The only question is: what are you waiting for?",
+        "image": "https://images.unsplash.com/photo-1607013288784-cff5bb1a57f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Student programming a robotic arm",
+        "title": "Learn, Innovate, Compete",
+        "description": "Whether you're programming AI robots or competing in challenges, our community supports every type of builder. The only question is: what will you create next?",
         "layout": "right"
       },
       {
         "id": 3,
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1FdGyjVpWQANGzsDWpoPIvF5SVI2za.png",
-        "alt": "Runner in dynamic motion showing strength and grace",
-        "title": "Join the Movement",
-        "description": "Running isn't just about the miles—it's about the moments. The early morning conversations, the shared struggles, the collective victories. At Wadada Run Club, you're not just joining a group, you're joining a family. So lace up, step out, and discover what you're truly capable of. Seriously, what are you waiting for?",
+        "image": "https://images.unsplash.com/photo-1559757175-570e49c3c5a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800&q=80",
+        "alt": "Robotics competition stage with robots",
+        "title": "Join the Innovation",
+        "description": "Robotics isn't just about machines\u2014it's about teamwork, creativity, and problem-solving. At RoboZone, you're joining a family of innovators. Step in and unleash your potential!",
         "layout": "left"
       }
     ]
   },
   "testimonials": {
-    "title": "See what our RUNNERS say.",
-    "subtitle": "Real stories from real runners who found their stride with Wadada Run Club.",
+    "title": "See what our MEMBERS say.",
+    "subtitle": "Real stories from students who discovered robotics with RoboZone.",
     "list": [
       {
         "tempId": 0,
-        "testimonial": "Wadada changed my life. From struggling to run 5 minutes to completing my first marathon, this community believed in me when I didn't believe in myself.",
-        "by": "Sarah Chen, Marathon Finisher",
+        "testimonial": "RoboZone changed my life. From zero coding experience to building an autonomous robot, this community guided me every step of the way.",
+        "by": "Sarah Chen, Robotics Developer",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=SarahChen&backgroundColor=3b82f6&textColor=ffffff"
       },
       {
         "tempId": 1,
-        "testimonial": "I was intimidated to join a running group, but Wadada welcomed me with open arms. Now I have lifelong friends and the confidence to chase any goal.",
-        "by": "Marcus Johnson, Trail Runner",
+        "testimonial": "I was intimidated by robotics competitions, but RoboZone welcomed me with open arms. Now I lead a team in international contests.",
+        "by": "Marcus Johnson, Competition Lead",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=MarcusJohnson&backgroundColor=10b981&textColor=ffffff"
       },
       {
         "tempId": 2,
-        "testimonial": "The energy at Wadada runs is infectious. Whether you're fast or slow, everyone cheers you on. It's not about competition—it's about community.",
-        "by": "Priya Patel, 5K Enthusiast",
+        "testimonial": "The energy in RoboZone is contagious. Everyone cheers each other on, no matter skill level. It's about innovation, not rivalry.",
+        "by": "Priya Patel, AI Robotics Enthusiast",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=PriyaPatel&backgroundColor=8b5cf6&textColor=ffffff"
       },
       {
         "tempId": 3,
-        "testimonial": "After years of running alone, finding Wadada was a game-changer. The group runs pushed me to new personal bests I never thought possible.",
-        "by": "David Rodriguez, Speed Demon",
+        "testimonial": "Finding RoboZone was a game-changer. Team projects pushed me to new heights I never imagined possible.",
+        "by": "David Rodriguez, Mechanical Engineer",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=DavidRodriguez&backgroundColor=ef4444&textColor=ffffff"
       },
       {
         "tempId": 4,
-        "testimonial": "Wadada taught me that running isn't just exercise—it's therapy, friendship, and adventure all rolled into one. This club saved my mental health.",
-        "by": "Emma Thompson, Mindful Runner",
+        "testimonial": "RoboZone taught me that robotics is about creativity, collaboration, and fun. It transformed my career path.",
+        "by": "Emma Thompson, Innovator",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=EmmaThompson&backgroundColor=f59e0b&textColor=ffffff"
       },
       {
         "tempId": 5,
-        "testimonial": "From couch to 10K in 6 months with Wadada's support. They meet you where you are and help you discover where you can go. Pure magic.",
-        "by": "James Wilson, Beginner Success",
+        "testimonial": "From first project to international awards, RoboZone supported me at every stage. Truly inspiring community.",
+        "by": "James Wilson, Robotics Enthusiast",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=JamesWilson&backgroundColor=6366f1&textColor=ffffff"
       },
       {
         "tempId": 6,
-        "testimonial": "The sunrise runs with Wadada are spiritual experiences. There's something powerful about moving together as the world wakes up around us.",
-        "by": "Aisha Mohammed, Dawn Patrol",
+        "testimonial": "The workshops are incredible. Learning robotics as a team in RoboZone is unlike any classroom experience.",
+        "by": "Aisha Mohammed, Workshop Leader",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AishaMohammed&backgroundColor=ec4899&textColor=ffffff"
       },
       {
         "tempId": 7,
-        "testimonial": "I joined Wadada after moving to a new city. Not only did I find my running tribe, but I found my chosen family. Movement truly is lifestyle here.",
+        "testimonial": "After moving cities, RoboZone became my community. Collaboration and mentorship here are unmatched.",
         "by": "Alex Kim, Community Builder",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AlexKim&backgroundColor=06b6d4&textColor=ffffff"
       },
       {
         "tempId": 8,
-        "testimonial": "Wadada celebrates every victory, no matter how small. My first mile felt like winning the Olympics with this crew cheering me on.",
-        "by": "Lisa Garcia, First Mile Hero",
+        "testimonial": "Every project we complete is a celebration. From circuits to competitions, RoboZone makes learning fun.",
+        "by": "Lisa Garcia, Robotics Innovator",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=LisaGarcia&backgroundColor=f97316&textColor=ffffff"
       },
       {
         "tempId": 9,
-        "testimonial": "The training plans at Wadada are incredible. I went from barely finishing a 5K to qualifying for Boston in just two years.",
-        "by": "Michael Chen, Boston Qualifier",
+        "testimonial": "The mentorship and guidance in RoboZone helped me win my first international robotics award.",
+        "by": "Michael Chen, Award Winner",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=MichaelChen&backgroundColor=84cc16&textColor=ffffff"
       },
       {
         "tempId": 10,
-        "testimonial": "What I love about Wadada is the diversity. Runners of all ages, backgrounds, and abilities come together with one shared passion.",
-        "by": "Sofia Rodriguez, Diversity Champion",
+        "testimonial": "RoboZone celebrates diversity. Students from all backgrounds come together to innovate and learn.",
+        "by": "Sofia Rodriguez, Diversity Advocate",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=SofiaRodriguez&backgroundColor=a855f7&textColor=ffffff"
       },
       {
         "tempId": 11,
-        "testimonial": "The accountability at Wadada is unmatched. When you know your running family is waiting for you, you show up no matter what.",
-        "by": "Tyler Brooks, Consistency King",
+        "testimonial": "The accountability and teamwork in RoboZone are unmatched. When the team depends on you, you give your best.",
+        "by": "Tyler Brooks, Team Leader",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=TylerBrooks&backgroundColor=059669&textColor=ffffff"
       },
       {
         "tempId": 12,
-        "testimonial": "Wadada's trail running group introduced me to the most beautiful places I never knew existed. Running became my way to explore the world.",
-        "by": "Nina Patel, Trail Explorer",
+        "testimonial": "RoboZone projects took me to amazing places and competitions I never knew existed.",
+        "by": "Nina Patel, Robotics Explorer",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=NinaPatel&backgroundColor=0ea5e9&textColor=ffffff"
       },
       {
         "tempId": 13,
-        "testimonial": "The post-run conversations at Wadada are as valuable as the runs themselves. We solve the world's problems one mile at a time.",
-        "by": "Robert Kim, Philosophy Runner",
+        "testimonial": "The brainstorming sessions and post-project discussions are as valuable as building robots themselves.",
+        "by": "Robert Kim, Thinker",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=RobertKim&backgroundColor=dc2626&textColor=ffffff"
       },
       {
         "tempId": 14,
-        "testimonial": "I never thought I'd be a runner, but Wadada's beginner-friendly approach made it possible. Now I can't imagine life without running.",
-        "by": "Jessica Martinez, Late Bloomer",
+        "testimonial": "I never imagined I could build a robot. RoboZone's beginner-friendly approach made it possible.",
+        "by": "Jessica Martinez, Beginner Builder",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=JessicaMartinez&backgroundColor=7c3aed&textColor=ffffff"
       },
       {
         "tempId": 15,
-        "testimonial": "The injury support at Wadada is incredible. When I was sidelined, they kept me motivated and helped me come back stronger.",
-        "by": "Daniel Park, Comeback Story",
+        "testimonial": "Support for troubleshooting and design flaws at RoboZone helped me come back stronger after failed projects.",
+        "by": "Daniel Park, Comeback Engineer",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=DanielPark&backgroundColor=ea580c&textColor=ffffff"
       },
       {
         "tempId": 16,
-        "testimonial": "Wadada's charity runs give our miles meaning. We're not just running for ourselves, we're running to make a difference.",
-        "by": "Rachel Green, Charity Champion",
+        "testimonial": "RoboZone competitions give our work purpose. We're not just building robots; we're innovating for impact.",
+        "by": "Rachel Green, Competition Champion",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=RachelGreen&backgroundColor=16a34a&textColor=ffffff"
       },
       {
         "tempId": 17,
-        "testimonial": "The technique workshops at Wadada transformed my running form. I'm faster and injury-free thanks to their expert guidance.",
+        "testimonial": "Workshops and technique sessions transformed my robotics skills. I'm more precise and creative now.",
         "by": "Kevin Wong, Form Perfectionist",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=KevinWong&backgroundColor=2563eb&textColor=ffffff"
       },
       {
         "tempId": 18,
-        "testimonial": "Wadada's virtual runs during lockdown kept me sane. Even when we couldn't run together, we stayed connected as a community.",
-        "by": "Amanda Foster, Virtual Warrior",
+        "testimonial": "Virtual robotics sessions kept me connected with the community even during lockdowns. Innovation never stopped.",
+        "by": "Amanda Foster, Virtual Innovator",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AmandaFoster&backgroundColor=be185d&textColor=ffffff"
       },
       {
         "tempId": 19,
-        "testimonial": "The mentorship at Wadada is life-changing. Experienced runners take newcomers under their wing and share their wisdom generously.",
+        "testimonial": "Mentorship at RoboZone is life-changing. Experienced members guide newcomers generously.",
         "by": "Carlos Mendez, Grateful Mentee",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=CarlosMendez&backgroundColor=0891b2&textColor=ffffff"
       }
@@ -191,49 +206,80 @@
   },
   "join": {
     "title": "STAY IN THE LOOP",
-    "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
-    "backgroundImage": "/images/runners-motion-blur.png",
+    "subtitle": "Get the latest updates on projects, workshops, and community news delivered to your inbox.",
+    "backgroundImage": "/images/robotics-workshop.png",
     "ctaTitle": "READY TO",
-    "ctaSubtitle": "RUN WITH US?",
-    "ctaDescription": "Join thousands of runners worldwide who've found their tribe, pushed their limits, and discovered what they're truly capable of.",
-    "ctaButtonText": "JOIN WADADA NOW",
+    "ctaSubtitle": "BUILD WITH US?",
+    "ctaDescription": "Join thousands of robotics enthusiasts worldwide who've found their tribe, honed their skills, and created innovative robots.",
+    "ctaButtonText": "JOIN ROBOZONE NOW",
     "ctaLink": "https://google.com",
     "stats": [
-      { "label": "Global Runners", "value": "50K+", "icon": "users" },
-      { "label": "Cities Worldwide", "value": "120+", "icon": "map-pin" },
-      { "label": "Days of Running", "value": "365", "icon": "calendar" },
-      { "label": "Goals Achieved", "value": "10K+", "icon": "trophy" }
+      {
+        "label": "Active Members",
+        "value": "5K+",
+        "icon": "users"
+      },
+      {
+        "label": "Projects Completed",
+        "value": "150+",
+        "icon": "cog"
+      },
+      {
+        "label": "Competitions Won",
+        "value": "50+",
+        "icon": "trophy"
+      },
+      {
+        "label": "Workshops Hosted",
+        "value": "100+",
+        "icon": "calendar"
+      }
     ],
     "trustIndicators": [
       "BEGINNER FRIENDLY",
       "GLOBAL COMMUNITY",
-      "PROVEN RESULTS",
+      "AWARD-WINNING PROJECTS",
       "FREE TO JOIN"
     ]
   },
   "chatbot": {
-    "title": "Wadada Assistant",
-    "welcomeMessage": "Hi! I'm the Wadada Run Club assistant. How can I help you today?",
+    "title": "RoboZone Assistant",
+    "welcomeMessage": "Hi! I'm the RoboZone assistant. Ask me anything about our club, projects, or competitions.",
     "placeholder": "Ask about the club..."
   },
   "footer": {
     "quickLinks": [
-      { "name": "Join Us", "href": "#join" },
-      { "name": "Find Your Chapter", "href": "#" },
-      { "name": "Training Plans", "href": "#" },
-      { "name": "Events", "href": "#" },
-      { "name": "Community", "href": "#" }
+      {
+        "name": "Join Us",
+        "href": "#join"
+      },
+      {
+        "name": "Find Your Chapter",
+        "href": "#"
+      },
+      {
+        "name": "Training Plans",
+        "href": "#"
+      },
+      {
+        "name": "Events",
+        "href": "#"
+      },
+      {
+        "name": "Community",
+        "href": "#"
+      }
     ],
     "contact": {
-      "address": "Kingston, Jamaica",
-      "email": "hello@wadadarun.club",
-      "phone": "+1 (876) 555-WADA"
+      "address": "Bangalore, India",
+      "email": "hello@robozone.club",
+      "phone": "+91 98765 43210"
     },
     "social": {
       "instagram": "#",
       "twitter": "#",
       "facebook": "#"
     },
-    "copyright": "© 2024 Wadada Run Club. All rights reserved."
+    "copyright": "\u00a9 2026 RoboZone Robotics Club. All rights reserved."
   }
 }

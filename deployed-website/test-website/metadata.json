@@ -1,7 +1,11 @@
-
 {
-  "title": "WADADA RUN CLUB",
-  "description": "Global Running Community - Movement isn't an option, it's a lifestyle.",
-  "keywords": ["running", "community", "fitness", "Wadada"],
-  "author": "Wadada Run Club"
+  "title": "ROBOZONE ROBOTICS CLUB",
+  "description": "Global Robotics Community - Innovate, Build, and Compete with RoboZone.",
+  "keywords": [
+    "robotics",
+    "community",
+    "innovation",
+    "RoboZone"
+  ],
+  "author": "RoboZone Robotics Club"
 }
