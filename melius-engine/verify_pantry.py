@@ -42,6 +42,13 @@ class PantryVerifier:
                     return None
         return None
 
+    def write_local_json(self, filename, data):
+        full_path = os.path.join(self.target_folder, filename)
+        os.makedirs(os.path.dirname(full_path), exist_ok=True)
+        with open(full_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        return True
+
     def verify_and_sync(self):
         if not self.pantry_id:
             print("PANTRY_ID environment variable is not set.")
@@ -54,22 +61,19 @@ class PantryVerifier:
             local_data = self.read_local_json(config_file)
             pantry_data = self.get_pantry_data(basket_name)
 
-            if local_data is None:
-                print(f"Local file {config_file} not found. Skipping.")
-                continue
-
             if pantry_data is None:
                 print(f"Basket {basket_name} not found in Pantry. Initializing Pantry with local data...")
-                if self.post_pantry_data(basket_name, local_data):
-                    print(f"Successfully initialized {basket_name} in Pantry.")
+                if local_data:
+                    if self.post_pantry_data(basket_name, local_data):
+                        print(f"Successfully initialized {basket_name} in Pantry.")
                 continue
 
             # Compare local and pantry
             if local_data != pantry_data:
-                print(f"Mismatch detected in {config_file}. Local data is different from Pantry.")
-                print("Updating Pantry to match local JSON file...")
-                if self.post_pantry_data(basket_name, local_data):
-                    print(f"Successfully updated Pantry basket {basket_name} to match local file.")
+                print(f"Mismatch detected in {config_file}. Pantry data is different from local.")
+                print(f"Updating local JSON file {config_file} to match Pantry...")
+                if self.write_local_json(config_file, pantry_data):
+                    print(f"Successfully updated local file {config_file} to match Pantry basket {basket_name}.")
             else:
                 print(f"{config_file} is already in sync with Pantry.")
 

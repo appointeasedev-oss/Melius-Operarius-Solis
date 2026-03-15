@@ -21,13 +21,12 @@ export default function Chatbot() {
               className="fixed bottom-0 right-0 sm:bottom-24 sm:right-6 w-full sm:w-[420px] md:w-[500px] h-[100dvh] sm:h-[600px] max-h-[100dvh] sm:max-h-[calc(100vh-120px)]"
             >
               <div className="bg-white sm:rounded-lg shadow-2xl overflow-hidden border-t sm:border border-gray-200 flex flex-col h-full">
-                <div className="flex items-center justify-between p-4 border-b bg-gray-50">
-                  <h3 className="font-bold text-gray-900">Chat Assistant</h3>
+                <div className="absolute top-4 right-4 z-10">
                   <Button 
                     variant="ghost" 
                     size="icon" 
                     onClick={() => setIsOpen(false)}
-                    className="hover:bg-gray-200"
+                    className="hover:bg-gray-200/50 rounded-full"
                   >
                     <X className="h-4 w-4" />
                   </Button>
