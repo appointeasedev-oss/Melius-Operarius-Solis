@@ -26,13 +26,6 @@ jobs:
           pip install requests
 
       - name: Run Melius Operarius Engine
-        env:
-          PANTRY_ID: ${{ secrets.PANTRY_ID }}
-          OPENROUTER_API_KEY_1: ${{ secrets.OPENROUTER_API_KEY_1 }}
-          OPENROUTER_API_KEY_2: ${{ secrets.OPENROUTER_API_KEY_2 }}
-          OPENROUTER_API_KEY_3: ${{ secrets.OPENROUTER_API_KEY_3 }}
-          OPENROUTER_API_KEY_4: ${{ secrets.OPENROUTER_API_KEY_4 }}
-          OPENROUTER_API_KEY_5: ${{ secrets.OPENROUTER_API_KEY_5 }}
         run: |
           python melius-engine/agent.py
 
