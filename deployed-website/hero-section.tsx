@@ -88,9 +88,7 @@ export default function HeroSection() {
         <div className="text-center text-white max-w-4xl">
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-wider mb-4 leading-none">
-            {content.brand.name}
-            <br />
-            RUN CLUB
+            {content.brand.fullName}
           </h1>
 
           {/* Subtitle */}
@@ -100,7 +98,7 @@ export default function HeroSection() {
           <LiquidButton
             size="xxl"
             className="font-semibold text-lg tracking-wide"
-            onClick={() => scrollToSection("#join")}
+            onClick={() => scrollToSection(content.navigation.find(item => item.name.toLowerCase().includes('join'))?.href || "#join")}
           >
             {content.hero.ctaText}
           </LiquidButton>
