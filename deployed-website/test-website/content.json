@@ -147,7 +147,7 @@
   "join": {
     "title": "STAY IN THE LOOP",
     "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
-    "backgroundImage": "https://tse3.mm.bing.net/th/id/OIP.G2qfsl0sSvP3pRlsLBjdkgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "backgroundImage": "https://www.billboard.com/wp-content/uploads/2023/05/05-Zhus-NIGHTDAY-line-Credit-Courtesy-of-Universal-Music-billboard-1548.jpg",
     "ctaTitle": "READY TO",
     "ctaSubtitle": "START YOU BUSINESS?",
     "ctaDescription": "Turn your creativity into reality. At Blanxiro Studio, you design\u2014we produce, pack, and deliver. Focus on creating, we handle the rest.",
@@ -155,24 +155,24 @@
     "ctaLink": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAp5ETMpUREE4NEtLS1NKT0Y5OFNVVlpYMkM1MjlSNi4u&origin=lprLink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBpmueY5YMzVTQZT0JEtVr77VfYXONE5lUjPL1S4UOE-hQDXmPvaW5SItpoo_aem_3AjpJxBp7ce_zcTwYrofKA&route=shorturl",
     "stats": [
       {
-        "label": "Global Runners",
-        "value": "50K+",
-        "icon": "users"
+        "label": "",
+        "value": "",
+        "icon": ""
       },
       {
-        "label": "Cities Worldwide",
-        "value": "120+",
-        "icon": "map-pin"
+        "label": "",
+        "value": "",
+        "icon": ""
       },
       {
-        "label": "Days of Running",
-        "value": "365",
-        "icon": "calendar"
+        "label": "",
+        "value": "",
+        "icon": ""
       },
       {
-        "label": "Goals Achieved",
-        "value": "10K+",
-        "icon": "trophy"
+        "label": "",
+        "value": "",
+        "icon": ""
       }
     ],
     "trustIndicators": [
