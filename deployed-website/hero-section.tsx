@@ -2,7 +2,7 @@
 
 import { LiquidButton } from "@/components/ui/liquid-glass-button"
 import { Menu, ChevronLeft, ChevronRight, X } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { content } from "@/lib/content"
 
 export default function HeroSection() {
