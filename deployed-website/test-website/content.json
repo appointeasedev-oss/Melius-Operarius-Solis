@@ -1,9 +1,9 @@
 {
   "brand": {
-    "name": "Blanxiro Studio",
-    "fullName": "Blanxiro Studio",
-    "tagline": "You design. We produce, pack, and deliver.",
-    "description": "Style isn't just what you wear, it's how you live. Join our community of creators who believe in designing, producing, and delivering with passion every step of the way."
+    "name": "blankxiro Studio",
+    "fullName": "blankxiro Studio",
+    "tagline": "Premium Print-on-Demand & Custom Apparel Solutions",
+    "description": "Your vision, our craftsmanship. We handle the production, packaging, and delivery so you can focus on building your brand."
   },
   "navigation": [
     {
@@ -15,203 +15,148 @@
       "href": "#mission"
     },
     {
-      "name": "Community",
+      "name": "Process",
       "href": "#community"
+    },
+    {
+      "name": "Pricing",
+      "href": "#pricing"
     },
     {
       "name": "Testimonials",
       "href": "#testimonials"
-    },
-    {
-      "name": "Join Us",
-      "href": "#join"
     }
   ],
   "hero": {
     "slides": [
       {
-        "image": "https://www.billboard.com/wp-content/uploads/2023/05/05-Zhus-NIGHTDAY-line-Credit-Courtesy-of-Universal-Music-billboard-1548.jpg",
-        "alt": "\u8d85 \u5e9e"
+        "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=2070&auto=format&fit=crop",
+        "alt": "Premium Apparel Production"
       },
       {
-        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oH2K0gw1HEqvYhhbwJrYbmkBrbksyk.png",
-        "alt": "Female runner with motion blur"
+        "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop",
+        "alt": "Custom T-Shirt Printing"
       },
       {
-        "image": "https://tse3.mm.bing.net/th/id/OIP.G2qfsl0sSvP3pRlsLBjdkgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
-        "alt": " leading group"
+        "image": "https://images.unsplash.com/photo-1603344049158-503e686c02d1?q=80&w=2070&auto=format&fit=crop",
+        "alt": "Quality Control and Packaging"
       }
     ],
-    "ctaText": "Join Us"
+    "ctaText": "View Pricing"
   },
   "mission": {
-    "title": "About",
-    "statement": "At Blanxiro Studio, we believe creativity isn't just a hobby, it's a lifestyle. Born from the vibrant spirit of artistic innovation, we unite creators from every corner of the world who share our passion for designing, producing, and sharing their work. Whether you're sketching inspiration in your studio or bringing your designs to life on our platform, we're here to manage every step of the process so you can focus on creating. Our community thrives on the energy of imagination, the power of collaboration, and the joy of shared achievements. Join us as we create not just for art, but for expression, connection, and the pure love of making."
+    "title": "Our Mission",
+    "statement": "At blankxiro Studio, we empower creators and entrepreneurs to launch their own premium clothing lines without the hassle of inventory or production. We provide high-quality garment blanks, state-of-the-art DTG printing, and professional packaging services. Our goal is to be the backbone of your brand, ensuring every piece that reaches your customer is a testament to quality and style. From a single piece to bulk orders, we scale with you, providing the tools and support needed to turn your creative vision into a thriving business."
   },
   "community": {
-    "title": "ALL ARTISTS WELCOME",
-    "subtitle": "At Blanxiro Studio, artists design, we produce, pack, and deliver, supporting every step so creators can focus on their craft.",
+    "title": "HOW IT WORKS",
+    "subtitle": "Launch your brand in three simple steps. We handle the heavy lifting while you focus on design.",
     "timeline": [
       {
         "id": 1,
-        "image": "https://i.pinimg.com/1200x/df/2f/1b/df2f1b4745646e7f2b33de090fb3d679.jpg",
-        "alt": "Designer working on a sketch",
-        "title": "Register & Design",
-        "description": "Sign up with Blanxiro Studio and start designing your unique creations. Both emerging and established artists are welcome to showcase their talent in our community. Your creativity is the first step toward making your designs real.",
+        "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1964&auto=format&fit=crop",
+        "alt": "Design your apparel",
+        "title": "1. Create Your Design",
+        "description": "Upload your artwork and choose from our range of premium garment blanks. Whether it's a minimalist logo or a complex graphic, our high-quality DTG printing ensures your vision is captured perfectly.",
         "layout": "left"
       },
       {
         "id": 2,
-        "image": "https://i.pinimg.com/1200x/77/d2/05/77d2051f4f6bcb86b0d8bee87a2ac5a9.jpg",
-        "alt": "Providing customer details for an order",
-        "title": "Place Your Order",
-        "description": "Once your design is ready, place an order and provide us with the customer details. This ensures your creation reaches the right person while keeping your brand and design front and center.",
+        "image": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?q=80&w=2065&auto=format&fit=crop",
+        "alt": "Place your order",
+        "title": "2. Place Your Order",
+        "description": "Once your design is ready, place an order with your customer's details. We offer a low MOQ of just 1 piece for most items, making it easy to start small and scale as you grow.",
         "layout": "right"
       },
       {
         "id": 3,
-        "image": "https://img.fantaskycdn.com/0eaafeb6f4dff44f72c7491a4ceb41e8_2056x.jpeg",
-        "alt": "Finished clothing with custom embroidery",
-        "title": "We Ship Your Design",
-        "description": "We produce, pack, and deliver your design with your name and artwork printed or embroidered on the clothing. Every order reflects your creativity, ready to impress and delight your customers.",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop",
+        "alt": "We produce and ship",
+        "title": "3. We Produce & Ship",
+        "description": "We handle the printing, custom branding, and professional packaging. Your orders are dispatched within 24–72 hours across India, delivered directly to your customers under your brand name.",
         "layout": "left"
       }
     ]
   },
+  "pricing": {
+    "title": "Premium Print-on-Demand Pricing",
+    "subtitle": "Transparent pricing for premium quality. All prices in INR. Neck logo printing included free.",
+    "garments": [
+      { "product": "Unisex Regular T-Shirt", "description": "180 GSM Premium Cotton", "size": "S to XXL", "price": 204 },
+      { "product": "Polo Regular T-Shirt", "description": "240 GSM PCPQ Blend", "size": "S to XXL", "price": 303 },
+      { "product": "Oversized T-Shirt (Unisex) – 240 GSM", "description": "240 GSM Premium French Terry Cotton", "size": "XS to XXL", "price": 341 },
+      { "product": "Oversized T-Shirt (Unisex) – 180 GSM", "description": "180 GSM Premium Cotton", "size": "S to XXL", "price": 275 },
+      { "product": "Raglan Baby Tee / Crop Top", "description": "220 GSM Premium Cotton", "size": "XS to XL", "price": 204 },
+      { "product": "Oversized Tank Tops", "description": "220 GSM French Terry Cotton", "size": "XS to XL", "price": 275 },
+      { "product": "Unisex Oversized Hoodies", "description": "450 GSM PC Fleece", "size": "XS to XXL", "price": 825 },
+      { "product": "Unisex Regular Hoodie", "description": "350 GSM Cotton Fleece", "size": "S to XXL", "price": 660 },
+      { "product": "Relaxed Fit Sweatpants", "description": "400 GSM PC Fleece Cotton", "size": "XS to XL", "price": 715 },
+      { "product": "Regular Fit Sweatshorts", "description": "260 GSM French Terry Cotton", "size": "S to XL", "price": 341 },
+      { "product": "Kids Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "size": "22 to 34", "price": 187 },
+      { "product": "Female Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "size": "S to XL", "price": 204 }
+    ],
+    "printing": [
+      { "size": "LOGO", "description": "Small chest logo", "price": 22 },
+      { "size": "A6", "description": "Pocket size print", "price": 50 },
+      { "size": "A4", "description": "Standard front/back", "price": 110 },
+      { "size": "A3", "description": "Full front/back", "price": 154 },
+      { "size": "14×16", "description": "Large print area", "price": 187 },
+      { "size": "16×20", "description": "Extra large print", "price": 220 },
+      { "size": "Neck Logo", "description": "Back neck label print", "price": "Free" }
+    ],
+    "packaging": [
+      { "option": "Brown Box", "description": "Standard brown corrugated", "price": 33 },
+      { "option": "White Box", "description": "Premium white box", "price": 39 },
+      { "option": "Custom Box", "description": "Fully custom printed", "price": 44, "notes": "MOQ 100 pcs" },
+      { "option": "Hang Tags", "description": "Custom branded hang tags", "price": 4, "notes": "MOQ 100 pcs" },
+      { "option": "Thank You Card", "description": "Personalized thank-you card", "price": 6, "notes": "MOQ 100 pcs" },
+      { "option": "Hardcover Box", "description": "Premium Hardcover Packaging", "price": 150, "notes": "Luxury feel" }
+    ],
+    "operations": [
+      { "tier": "Up to 20 orders/day", "price": "₹28 per product" },
+      { "tier": "20–50 orders/day", "price": "₹17 per product" },
+      { "tier": "50+ orders/day", "price": "Free" }
+    ]
+  },
   "testimonials": {
-    "title": "See what our ARTISTS say.",
-    "subtitle": "Real stories from real creators who brought their designs to life with Blanxiro Studio.",
+    "title": "What Our Partners Say",
+    "subtitle": "Join hundreds of creators who have launched their brands with blankxiro Studio.",
     "list": [
       {
         "tempId": 0,
-        "testimonial": "Wadada changed my life. From struggling to run 5 minutes to completing my first marathon, this community believed in me when I didn't believe in myself.",
-        "by": "Sarah Chen, Marathon Finisher",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=SarahChen&backgroundColor=3b82f6&textColor=ffffff"
+        "testimonial": "blankxiro Studio has been a game-changer for my brand. The quality of the 240 GSM oversized tees is unmatched, and the DTG printing is incredibly sharp.",
+        "by": "Aman Sharma, Founder of UrbanVibe",
+        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AmanSharma&backgroundColor=3b82f6&textColor=ffffff"
       },
       {
         "tempId": 1,
-        "testimonial": "I was intimidated to join a running group, but Wadada welcomed me with open arms. Now I have lifelong friends and the confidence to chase any goal.",
-        "by": "Marcus Johnson, Trail Runner",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=MarcusJohnson&backgroundColor=10b981&textColor=ffffff"
+        "testimonial": "The low MOQ allowed me to start my clothing line with just a few designs. Their fulfillment is fast, and the custom packaging really elevates the unboxing experience.",
+        "by": "Riya Kapoor, Creative Director",
+        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=RiyaKapoor&backgroundColor=10b981&textColor=ffffff"
       },
       {
         "tempId": 2,
-        "testimonial": "The energy at Wadada runs is infectious. Whether you're fast or slow, everyone cheers you on. It's not about competition\u2014it's about community.",
-        "by": "Priya Patel, 5K Enthusiast",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=PriyaPatel&backgroundColor=8b5cf6&textColor=ffffff"
-      },
-      {
-        "tempId": 3,
-        "testimonial": "After years of running alone, finding Wadada was a game-changer. The group runs pushed me to new personal bests I never thought possible.",
-        "by": "David Rodriguez, Speed Demon",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=DavidRodriguez&backgroundColor=ef4444&textColor=ffffff"
-      },
-      {
-        "tempId": 4,
-        "testimonial": "Wadada taught me that running isn't just exercise\u2014it's therapy, friendship, and adventure all rolled into one. This club saved my mental health.",
-        "by": "Emma Thompson, Mindful Runner",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=EmmaThompson&backgroundColor=f59e0b&textColor=ffffff"
-      },
-      {
-        "tempId": 5,
-        "testimonial": "From couch to 10K in 6 months with Wadada's support. They meet you where you are and help you discover where you can go. Pure magic.",
-        "by": "James Wilson, Beginner Success",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=JamesWilson&backgroundColor=6366f1&textColor=ffffff"
-      },
-      {
-        "tempId": 6,
-        "testimonial": "The sunrise runs with Wadada are spiritual experiences. There's something powerful about moving together as the world wakes up around us.",
-        "by": "Aisha Mohammed, Dawn Patrol",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AishaMohammed&backgroundColor=ec4899&textColor=ffffff"
-      },
-      {
-        "tempId": 7,
-        "testimonial": "I joined Wadada after moving to a new city. Not only did I find my running tribe, but I found my chosen family. Movement truly is lifestyle here.",
-        "by": "Alex Kim, Community Builder",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AlexKim&backgroundColor=06b6d4&textColor=ffffff"
-      },
-      {
-        "tempId": 8,
-        "testimonial": "Wadada celebrates every victory, no matter how small. My first mile felt like winning the Olympics with this crew cheering me on.",
-        "by": "Lisa Garcia, First Mile Hero",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=LisaGarcia&backgroundColor=f97316&textColor=ffffff"
-      },
-      {
-        "tempId": 9,
-        "testimonial": "The training plans at Wadada are incredible. I went from barely finishing a 5K to qualifying for Boston in just two years.",
-        "by": "Michael Chen, Boston Qualifier",
-        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=MichaelChen&backgroundColor=84cc16&textColor=ffffff"
+        "testimonial": "I've tried several POD services in India, but blankxiro's attention to detail and fabric quality is on another level. Highly recommended for serious brands.",
+        "by": "Vikram Singh, Streetwear Designer",
+        "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=VikramSingh&backgroundColor=8b5cf6&textColor=ffffff"
       }
-    ]
-  },
-  "join": {
-    "title": "STAY IN THE LOOP",
-    "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
-    "backgroundImage": "https://www.billboard.com/wp-content/uploads/2023/05/05-Zhus-NIGHTDAY-line-Credit-Courtesy-of-Universal-Music-billboard-1548.jpg",
-    "ctaTitle": "READY TO",
-    "ctaSubtitle": "START YOU BUSINESS?",
-    "ctaDescription": "Turn your creativity into reality. At Blanxiro Studio, you design\u2014we produce, pack, and deliver. Focus on creating, we handle the rest.",
-    "ctaButtonText": "Join Blanxiro Studio",
-    "ctaLink": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAp5ETMpUREE4NEtLS1NKT0Y5OFNVVlpYMkM1MjlSNi4u&origin=lprLink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBpmueY5YMzVTQZT0JEtVr77VfYXONE5lUjPL1S4UOE-hQDXmPvaW5SItpoo_aem_3AjpJxBp7ce_zcTwYrofKA&route=shorturl",
-    "stats": [
-      {
-        "label": "",
-        "value": "",
-        "icon": ""
-      },
-      {
-        "label": "",
-        "value": "",
-        "icon": ""
-      },
-      {
-        "label": "",
-        "value": "",
-        "icon": ""
-      },
-      {
-        "label": "",
-        "value": "",
-        "icon": ""
-      }
-    ],
-    "trustIndicators": [
-      "BEGINNER FRIENDLY",
-      "GLOBAL COMMUNITY",
-      "PROVEN RESULTS",
-      "FREE TO JOIN"
     ]
   },
   "chatbot": {
-    "title": "Wadada Assistant",
-    "welcomeMessage": "Hi! I'm the Wadada Run Club assistant. How can I help you today?",
-    "placeholder": "Ask about the club..."
+    "title": "blankxiro Assistant",
+    "welcomeMessage": "Hi! I'm the blankxiro Studio assistant. How can I help you with your print-on-demand needs today?",
+    "placeholder": "Ask about pricing, garments, or shipping..."
   },
   "footer": {
     "quickLinks": [
-      {
-        "name": "Home",
-        "href": "#hero"
-      },
-      {
-        "name": "About",
-        "href": "#mission"
-      },
-      {
-        "name": "Community",
-        "href": "#community"
-      },
-      {
-        "name": "Testimonials",
-        "href": "#testimonials"
-      },
-      {
-        "name": "Join Us",
-        "href": "#join"
-      }
+      { "name": "Home", "href": "#hero" },
+      { "name": "About", "href": "#mission" },
+      { "name": "Process", "href": "#community" },
+      { "name": "Pricing", "href": "#pricing" },
+      { "name": "Testimonials", "href": "#testimonials" }
     ],
     "contact": {
-      "address": "Online,INDIA",
+      "address": "Online, INDIA",
       "email": "Khushankagrawal1209@gmail.com",
       "phone": "+91 94144 58878"
     },
@@ -220,6 +165,6 @@
       "twitter": "#",
       "facebook": "#"
     },
-    "copyright": "\u00a9 2026 Blanxiro Studio. All rights reserved."
+    "copyright": "© 2026 blankxiro Studio. All rights reserved."
   }
 }

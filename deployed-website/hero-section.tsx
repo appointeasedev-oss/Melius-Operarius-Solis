@@ -98,7 +98,7 @@ export default function HeroSection() {
           <LiquidButton
             size="xxl"
             className="font-semibold text-lg tracking-wide"
-            onClick={() => scrollToSection(content.navigation.find(item => item.name.toLowerCase().includes('join'))?.href || "#join")}
+            onClick={() => scrollToSection(content.navigation.find(item => item.name.toLowerCase().includes('pricing'))?.href || "#pricing")}
           >
             {content.hero.ctaText}
           </LiquidButton>
