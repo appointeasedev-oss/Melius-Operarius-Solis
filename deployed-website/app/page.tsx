@@ -18,6 +18,13 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
+const fadeInUp = {
+  initial: { opacity: 0, y: 20 },
+  whileInView: { opacity: 1, y: 0 },
+  transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
+  viewport: { once: true }
+}
+
 export default function Page() {
   const missionStatement = content.mission.statement
   const timelineEntries = content.community.timeline.map(entry => ({
@@ -36,7 +43,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
 
         <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <motion.div className="max-w-4xl mx-auto text-center" {...fadeInUp}>
             <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-12 text-gray-900">{content.mission.title}</h2>
             <TextGradientScroll
               text={missionStatement}
@@ -44,7 +51,7 @@ export default function Page() {
               type="word"
               textOpacity="soft"
             />
-          </div>
+          </motion.div>
         </div>
       </section>
 
@@ -55,12 +62,12 @@ export default function Page() {
 
         <div className="relative z-10">
           <div className="container mx-auto px-6 mb-16">
-            <div className="text-center">
+            <motion.div className="text-center" {...fadeInUp}>
               <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-6 text-gray-900">{content.community.title}</h2>
               <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
                 {content.community.subtitle}
               </p>
-            </div>
+            </motion.div>
           </div>
 
           <Timeline entries={timelineEntries} />
@@ -71,18 +78,18 @@ export default function Page() {
       <section id="pricing" className="relative py-20" style={{ backgroundColor: 'var(--background)' }}>
         <div className="absolute inset-0 bg-grid-subtle opacity-30 pointer-events-none" />
         <div className="container mx-auto px-6 relative z-10">
-          <div className="text-center mb-16">
+          <motion.div className="text-center mb-16" {...fadeInUp}>
             <h2 className="text-4xl md:text-6xl font-black tracking-wider text-gray-900 mb-6">
               {content.pricing.title}
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               {content.pricing.subtitle}
             </p>
-          </div>
+          </motion.div>
 
           <div className="space-y-16 max-w-5xl mx-auto">
             {/* Garment Blanks */}
-            <div>
+            <motion.div {...fadeInUp}>
               <h3 className="text-2xl font-bold mb-6 text-gray-800 border-l-4 border-gray-900 pl-4">1. Garment Blanks</h3>
               <div className="bg-white rounded-xl shadow-sm border overflow-hidden">
                 <Table>
@@ -90,27 +97,25 @@ export default function Page() {
                     <TableRow className="bg-gray-50">
                       <TableHead className="font-bold">Product</TableHead>
                       <TableHead className="font-bold">Description</TableHead>
-                      <TableHead className="font-bold">Size Range</TableHead>
                       <TableHead className="font-bold text-right">Price (INR)</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {content.pricing.garments.map((item, idx) => (
-                      <TableRow key={idx}>
+                      <TableRow key={idx} className="hover:bg-gray-50 transition-colors">
                         <TableCell className="font-medium">{item.product}</TableCell>
                         <TableCell>{item.description}</TableCell>
-                        <TableCell>{item.size}</TableCell>
                         <TableCell className="text-right font-bold">₹{item.price}</TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
                 </Table>
               </div>
-            </div>
+            </motion.div>
 
             {/* Printing Charges */}
             <div className="grid md:grid-cols-2 gap-8">
-              <div>
+              <motion.div {...fadeInUp}>
                 <h3 className="text-2xl font-bold mb-6 text-gray-800 border-l-4 border-gray-900 pl-4">2. Printing Charges</h3>
                 <div className="bg-white rounded-xl shadow-sm border overflow-hidden">
                   <Table>
@@ -122,7 +127,7 @@ export default function Page() {
                     </TableHeader>
                     <TableBody>
                       {content.pricing.printing.map((item, idx) => (
-                        <TableRow key={idx}>
+                        <TableRow key={idx} className="hover:bg-gray-50 transition-colors">
                           <TableCell className="font-medium">{item.size}</TableCell>
                           <TableCell className="text-right font-bold">
                             {item.price === "Free" ? <span className="text-green-600">Free</span> : `₹${item.price}`}
@@ -132,9 +137,9 @@ export default function Page() {
                     </TableBody>
                   </Table>
                 </div>
-              </div>
+              </motion.div>
 
-              <div>
+              <motion.div {...fadeInUp}>
                 <h3 className="text-2xl font-bold mb-6 text-gray-800 border-l-4 border-gray-900 pl-4">3. Packaging & Branding</h3>
                 <div className="bg-white rounded-xl shadow-sm border overflow-hidden">
                   <Table>
@@ -146,7 +151,7 @@ export default function Page() {
                     </TableHeader>
                     <TableBody>
                       {content.pricing.packaging.map((item, idx) => (
-                        <TableRow key={idx}>
+                        <TableRow key={idx} className="hover:bg-gray-50 transition-colors">
                           <TableCell className="font-medium">
                             {item.option}
                             {item.notes && <span className="block text-xs text-gray-500 font-normal">{item.notes}</span>}
@@ -157,24 +162,29 @@ export default function Page() {
                     </TableBody>
                   </Table>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             {/* Operations Fees */}
-            <div className="bg-gray-900 text-white p-8 rounded-2xl shadow-xl">
+            <motion.div className="bg-gray-900 text-white p-8 rounded-2xl shadow-xl" {...fadeInUp}>
               <h3 className="text-2xl font-bold mb-6">4. Operations & Order Management</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 {content.pricing.operations.map((item, idx) => (
-                  <div key={idx} className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                  <motion.div 
+                    key={idx} 
+                    className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10"
+                    whileHover={{ scale: 1.05, backgroundColor: "rgba(255, 255, 255, 0.15)" }}
+                    transition={{ duration: 0.2 }}
+                  >
                     <div className="text-sm text-gray-400 mb-2">{item.tier}</div>
                     <div className="text-2xl font-black">{item.price}</div>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
               <p className="mt-6 text-gray-400 text-sm italic">
                 * Applied per product, per order processed. Free non-customized thank-you card included with every order.
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -186,10 +196,7 @@ export default function Page() {
 
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-            viewport={{ once: true }}
+            {...fadeInUp}
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-6xl font-black tracking-wider text-gray-900 mb-6">

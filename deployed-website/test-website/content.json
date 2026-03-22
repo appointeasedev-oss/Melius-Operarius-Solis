@@ -1,7 +1,7 @@
 {
   "brand": {
-    "name": "blankxiro Studio",
-    "fullName": "blankxiro Studio",
+    "name": "Blankxiro Studio",
+    "fullName": "Blankxiro Studio",
     "tagline": "Premium Print-on-Demand & Custom Apparel Solutions",
     "description": "Your vision, our craftsmanship. We handle the production, packaging, and delivery so you can focus on building your brand."
   },
@@ -46,7 +46,7 @@
   },
   "mission": {
     "title": "Our Mission",
-    "statement": "At blankxiro Studio, we empower creators and entrepreneurs to launch their own premium clothing lines without the hassle of inventory or production. We provide high-quality garment blanks, state-of-the-art DTG printing, and professional packaging services. Our goal is to be the backbone of your brand, ensuring every piece that reaches your customer is a testament to quality and style. From a single piece to bulk orders, we scale with you, providing the tools and support needed to turn your creative vision into a thriving business."
+    "statement": "At Blankxiro Studio, we empower creators and entrepreneurs to launch their own premium clothing lines without the hassle of inventory or production. We provide high-quality garment blanks, state-of-the-art DTG printing, and professional packaging services. Our goal is to be the backbone of your brand, ensuring every piece that reaches your customer is a testament to quality and style. From a single piece to bulk orders, we scale with you, providing the tools and support needed to turn your creative vision into a thriving business."
   },
   "community": {
     "title": "HOW IT WORKS",
@@ -82,18 +82,18 @@
     "title": "Premium Print-on-Demand Pricing",
     "subtitle": "Transparent pricing for premium quality. All prices in INR. Neck logo printing included free.",
     "garments": [
-      { "product": "Unisex Regular T-Shirt", "description": "180 GSM Premium Cotton", "size": "S to XXL", "price": 204 },
-      { "product": "Polo Regular T-Shirt", "description": "240 GSM PCPQ Blend", "size": "S to XXL", "price": 303 },
-      { "product": "Oversized T-Shirt (Unisex) – 240 GSM", "description": "240 GSM Premium French Terry Cotton", "size": "XS to XXL", "price": 341 },
-      { "product": "Oversized T-Shirt (Unisex) – 180 GSM", "description": "180 GSM Premium Cotton", "size": "S to XXL", "price": 275 },
-      { "product": "Raglan Baby Tee / Crop Top", "description": "220 GSM Premium Cotton", "size": "XS to XL", "price": 204 },
-      { "product": "Oversized Tank Tops", "description": "220 GSM French Terry Cotton", "size": "XS to XL", "price": 275 },
-      { "product": "Unisex Oversized Hoodies", "description": "450 GSM PC Fleece", "size": "XS to XXL", "price": 825 },
-      { "product": "Unisex Regular Hoodie", "description": "350 GSM Cotton Fleece", "size": "S to XXL", "price": 660 },
-      { "product": "Relaxed Fit Sweatpants", "description": "400 GSM PC Fleece Cotton", "size": "XS to XL", "price": 715 },
-      { "product": "Regular Fit Sweatshorts", "description": "260 GSM French Terry Cotton", "size": "S to XL", "price": 341 },
-      { "product": "Kids Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "size": "22 to 34", "price": 187 },
-      { "product": "Female Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "size": "S to XL", "price": 204 }
+      { "product": "Unisex Regular T-Shirt", "description": "180 GSM Premium Cotton", "price": 204 },
+      { "product": "Polo Regular T-Shirt", "description": "240 GSM PCPQ Blend", "price": 303 },
+      { "product": "Oversized T-Shirt (Unisex) – 240 GSM", "description": "240 GSM Premium French Terry Cotton", "price": 341 },
+      { "product": "Oversized T-Shirt (Unisex) – 180 GSM", "description": "180 GSM Premium Cotton", "price": 275 },
+      { "product": "Raglan Baby Tee / Crop Top", "description": "220 GSM Premium Cotton", "price": 204 },
+      { "product": "Oversized Tank Tops", "description": "220 GSM French Terry Cotton", "price": 275 },
+      { "product": "Unisex Oversized Hoodies", "description": "450 GSM PC Fleece", "price": 825 },
+      { "product": "Unisex Regular Hoodie", "description": "350 GSM Cotton Fleece", "price": 660 },
+      { "product": "Relaxed Fit Sweatpants", "description": "400 GSM PC Fleece Cotton", "price": 715 },
+      { "product": "Regular Fit Sweatshorts", "description": "260 GSM French Terry Cotton", "price": 341 },
+      { "product": "Kids Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "price": 187 },
+      { "product": "Female Regular Fit T-Shirt", "description": "180 GSM Premium Cotton", "price": 204 }
     ],
     "printing": [
       { "size": "LOGO", "description": "Small chest logo", "price": 22 },
@@ -120,11 +120,11 @@
   },
   "testimonials": {
     "title": "What Our Partners Say",
-    "subtitle": "Join hundreds of creators who have launched their brands with blankxiro Studio.",
+    "subtitle": "Join hundreds of creators who have launched their brands with Blankxiro Studio.",
     "list": [
       {
         "tempId": 0,
-        "testimonial": "blankxiro Studio has been a game-changer for my brand. The quality of the 240 GSM oversized tees is unmatched, and the DTG printing is incredibly sharp.",
+        "testimonial": "Blankxiro Studio has been a game-changer for my brand. The quality of the 240 GSM oversized tees is unmatched, and the DTG printing is incredibly sharp.",
         "by": "Aman Sharma, Founder of UrbanVibe",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=AmanSharma&backgroundColor=3b82f6&textColor=ffffff"
       },
@@ -136,15 +136,15 @@
       },
       {
         "tempId": 2,
-        "testimonial": "I've tried several POD services in India, but blankxiro's attention to detail and fabric quality is on another level. Highly recommended for serious brands.",
+        "testimonial": "I've tried several POD services in India, but Blankxiro's attention to detail and fabric quality is on another level. Highly recommended for serious brands.",
         "by": "Vikram Singh, Streetwear Designer",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=VikramSingh&backgroundColor=8b5cf6&textColor=ffffff"
       }
     ]
   },
   "chatbot": {
-    "title": "blankxiro Assistant",
-    "welcomeMessage": "Hi! I'm the blankxiro Studio assistant. How can I help you with your print-on-demand needs today?",
+    "title": "Blankxiro Assistant",
+    "welcomeMessage": "Hi! I'm the Blankxiro Studio assistant. How can I help you with your print-on-demand needs today?",
     "placeholder": "Ask about pricing, garments, or shipping..."
   },
   "footer": {
@@ -165,6 +165,6 @@
       "twitter": "#",
       "facebook": "#"
     },
-    "copyright": "© 2026 blankxiro Studio. All rights reserved."
+    "copyright": "© 2026 Blankxiro Studio. All rights reserved."
   }
 }
