@@ -12,6 +12,14 @@ export default function HeroSection() {
   const slides = content.hero.slides
   const navItems = content.navigation
 
+  // Preload images to prevent blank slides
+  useEffect(() => {
+    slides.forEach((slide) => {
+      const img = new Image()
+      img.src = slide.image
+    })
+  }, [slides])
+
   // Navigation handlers
   const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length)
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length)
@@ -28,7 +36,7 @@ export default function HeroSection() {
     <div id="hero" className="relative h-screen w-full overflow-hidden bg-black">
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 ease-in-out bg-gray-900"
         style={{
           backgroundImage: `url('${slides[currentSlide].image}')`,
         }}
