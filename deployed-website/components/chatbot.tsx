@@ -33,7 +33,7 @@ export default function Chatbot() {
                 </div>
                 <div className="flex-1 overflow-hidden">
                   <iframe 
-                    src="https://heho.vercel.app/deploy/9iei42ibl0fbr1kur6aqki" 
+                    src="https://heho.vercel.app/deploy/d8w4i13x097qg38quoch6" 
                     style={{ 
                       width: '100%', 
                       height: '100%', 

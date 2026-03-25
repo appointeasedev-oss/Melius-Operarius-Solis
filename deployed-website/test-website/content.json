@@ -1,9 +1,9 @@
 {
   "brand": {
-    "name": "Blanxiro Studio",
-    "fullName": "Blanxiro Studio",
-    "tagline": "You design. We produce, pack, and deliver.",
-    "description": "Style isn't just what you wear, it's how you live. Join our community of creators who believe in designing, producing, and delivering with passion every step of the way."
+    "name": "Blanxiro Studios",
+    "fullName": "Blanxiro Studios",
+    "tagline": "You imagine it. We craft it. Your brand, fully fulfilled.",
+    "description": "Blanxiro Studios is a creator-first production collective where independent artists launch premium apparel with zero operational burden."
   },
   "navigation": [
     {
@@ -19,6 +19,10 @@
       "href": "#community"
     },
     {
+      "name": "Pricing",
+      "href": "#pricing"
+    },
+    {
       "name": "Testimonials",
       "href": "#testimonials"
     },
@@ -31,7 +35,7 @@
     "slides": [
       {
         "image": "https://www.billboard.com/wp-content/uploads/2023/05/05-Zhus-NIGHTDAY-line-Credit-Courtesy-of-Universal-Music-billboard-1548.jpg",
-        "alt": "\u8d85 \u5e9e"
+        "alt": "超 庞"
       },
       {
         "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oH2K0gw1HEqvYhhbwJrYbmkBrbksyk.png",
@@ -45,12 +49,12 @@
     "ctaText": "Join Us"
   },
   "mission": {
-    "title": "About",
-    "statement": "At Blanxiro Studio, we believe creativity isn't just a hobby, it's a lifestyle. Born from the vibrant spirit of artistic innovation, we unite creators from every corner of the world who share our passion for designing, producing, and sharing their work. Whether you're sketching inspiration in your studio or bringing your designs to life on our platform, we're here to manage every step of the process so you can focus on creating. Our community thrives on the energy of imagination, the power of collaboration, and the joy of shared achievements. Join us as we create not just for art, but for expression, connection, and the pure love of making."
+    "title": "Built for Creator Brands",
+    "statement": "Blanxiro Studios helps artists and micro-brands turn original ideas into physical products without building a full operations team. You focus on design and community; we handle sourcing, print production, packaging, and delivery with studio-grade quality control."
   },
   "community": {
-    "title": "ALL ARTISTS WELCOME",
-    "subtitle": "At Blanxiro Studio, artists design, we produce, pack, and deliver, supporting every step so creators can focus on their craft.",
+    "title": "FROM CONCEPT TO CUSTOMER",
+    "subtitle": "A clean workflow for design-led brands: upload, approve, sell, and ship globally.",
     "timeline": [
       {
         "id": 1,
@@ -79,8 +83,8 @@
     ]
   },
   "testimonials": {
-    "title": "See what our ARTISTS say.",
-    "subtitle": "Real stories from real creators who brought their designs to life with Blanxiro Studio.",
+    "title": "What creators say about Blanxiro Studios",
+    "subtitle": "Feedback from independent artists who scale faster with our production pipeline.",
     "list": [
       {
         "tempId": 0,
@@ -96,7 +100,7 @@
       },
       {
         "tempId": 2,
-        "testimonial": "The energy at Wadada runs is infectious. Whether you're fast or slow, everyone cheers you on. It's not about competition\u2014it's about community.",
+        "testimonial": "The energy at Wadada runs is infectious. Whether you're fast or slow, everyone cheers you on. It's not about competition—it's about community.",
         "by": "Priya Patel, 5K Enthusiast",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=PriyaPatel&backgroundColor=8b5cf6&textColor=ffffff"
       },
@@ -108,7 +112,7 @@
       },
       {
         "tempId": 4,
-        "testimonial": "Wadada taught me that running isn't just exercise\u2014it's therapy, friendship, and adventure all rolled into one. This club saved my mental health.",
+        "testimonial": "Wadada taught me that running isn't just exercise—it's therapy, friendship, and adventure all rolled into one. This club saved my mental health.",
         "by": "Emma Thompson, Mindful Runner",
         "imgSrc": "https://api.dicebear.com/7.x/initials/svg?seed=EmmaThompson&backgroundColor=f59e0b&textColor=ffffff"
       },
@@ -145,13 +149,13 @@
     ]
   },
   "join": {
-    "title": "STAY IN THE LOOP",
-    "subtitle": "Get the latest updates on runs, events, and community news delivered to your inbox.",
+    "title": "BUILD YOUR MERCH LINE",
+    "subtitle": "Get launch updates, studio insights, and creator resources.",
     "backgroundImage": "https://www.billboard.com/wp-content/uploads/2023/05/05-Zhus-NIGHTDAY-line-Credit-Courtesy-of-Universal-Music-billboard-1548.jpg",
     "ctaTitle": "READY TO",
-    "ctaSubtitle": "START YOU BUSINESS?",
-    "ctaDescription": "Turn your creativity into reality. At Blanxiro Studio, you design\u2014we produce, pack, and deliver. Focus on creating, we handle the rest.",
-    "ctaButtonText": "Join Blanxiro Studio",
+    "ctaSubtitle": "START YOUR BRAND?",
+    "ctaDescription": "At Blanxiro Studios, your artwork becomes a sellable product line while we run the backend operations.",
+    "ctaButtonText": "Join Blanxiro Studios",
     "ctaLink": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAp5ETMpUREE4NEtLS1NKT0Y5OFNVVlpYMkM1MjlSNi4u&origin=lprLink&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBpmueY5YMzVTQZT0JEtVr77VfYXONE5lUjPL1S4UOE-hQDXmPvaW5SItpoo_aem_3AjpJxBp7ce_zcTwYrofKA&route=shorturl",
     "stats": [
       {
@@ -183,9 +187,9 @@
     ]
   },
   "chatbot": {
-    "title": "Wadada Assistant",
-    "welcomeMessage": "Hi! I'm the Wadada Run Club assistant. How can I help you today?",
-    "placeholder": "Ask about the club..."
+    "title": "Blanxiro AI Assistant",
+    "welcomeMessage": "Hi! I am the Blanxiro Studios assistant. Ask me about products, pricing, and order flow.",
+    "placeholder": "Ask about products, pricing, or shipping..."
   },
   "footer": {
     "quickLinks": [
@@ -220,6 +224,62 @@
       "twitter": "#",
       "facebook": "#"
     },
-    "copyright": "\u00a9 2026 Blanxiro Studio. All rights reserved."
+    "copyright": "© 2026 Blanxiro Studios. All rights reserved."
+  },
+  "pricing": {
+    "title": "Transparent Studio Pricing",
+    "subtitle": "Base catalog and print costs are synced from HEHO tables (products + printing_price).",
+    "garments": [
+      {
+        "product": "Premium T-Shirt (placeholder)",
+        "description": "Synced from products table: product_name + use",
+        "price": "--"
+      },
+      {
+        "product": "Oversized T-Shirt (placeholder)",
+        "description": "Run HEHO sync command to fetch latest INR price",
+        "price": "--"
+      }
+    ],
+    "printing": [
+      {
+        "size": "LOGO",
+        "price": "--"
+      },
+      {
+        "size": "A4",
+        "price": "--"
+      },
+      {
+        "size": "16x20",
+        "price": "--"
+      }
+    ],
+    "packaging": [
+      {
+        "option": "Standard Packaging",
+        "notes": "Studio packed",
+        "price": "0"
+      },
+      {
+        "option": "Branded Packaging",
+        "notes": "Custom inserts and labeling",
+        "price": "--"
+      }
+    ],
+    "operations": [
+      {
+        "tier": "Order management fee",
+        "price": "₹49 / order"
+      },
+      {
+        "tier": "Rush handling",
+        "price": "₹99 / order"
+      },
+      {
+        "tier": "Dedicated support",
+        "price": "Custom"
+      }
+    ]
   }
 }

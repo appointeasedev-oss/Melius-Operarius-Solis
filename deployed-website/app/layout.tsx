@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     title: siteMetadata.title,
     description: siteMetadata.description,
     url: siteMetadata.url,
-    siteName: 'Blankxiro Studio',
+    siteName: 'Blanxiro Studios',
     images: [
       {
         url: siteMetadata.ogImage,
         width: 1200,
         height: 630,
-        alt: 'Blankxiro Studio - Premium Print-on-Demand',
+        alt: 'Blanxiro Studios - Premium Print-on-Demand',
       },
     ],
     locale: 'en_IN',
@@ -58,7 +58,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Blankxiro Studio",
+    "name": "Blanxiro Studios",
     "url": siteMetadata.url,
     "logo": siteMetadata.ogImage,
     "description": siteMetadata.description,
