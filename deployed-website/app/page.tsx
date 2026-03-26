@@ -31,6 +31,8 @@ const fadeInUp = {
 
 const HEHO_DATABASE_MANAGE_URL = "https://heho.vercel.app/api/v1/database/manage"
 const HEHO_API_KEY = "heho_71bade8d9d5ef6d0a8f6a82e"
+const PANTRY_ID = "960c38e3-0953-4d96-99b2-21614c2e43e0"
+const PANTRY_BASE_URL = `https://getpantry.cloud/apiv1/pantry/${PANTRY_ID}/basket`
 
 type Product = {
   id: number
@@ -51,6 +53,36 @@ type LeadFormData = {
   phone_number: string
   email: string
   project_description: string
+}
+
+type AboutBucket = {
+  title: string
+  statement: string
+}
+
+type FlowBucket = {
+  title: string
+  subtitle: string
+  timeline: {
+    id: number
+    image: string
+    alt: string
+    title: string
+    description: string
+    layout: "left" | "right"
+  }[]
+}
+
+type ImagesBucket = {
+  heroSlides: { image: string; alt: string }[]
+  timelineImages: { id: number; image: string; alt: string }[]
+  joinBackgroundImage: string
+  testimonialImages: { tempId: number; imgSrc: string }[]
+}
+
+type FooterContactBucket = {
+  email: string
+  phone: string
 }
 
 async function manageDatabase<T>({
@@ -90,6 +122,8 @@ export default function Page() {
   const [isLoadingPricing, setIsLoadingPricing] = useState<boolean>(true)
   const [isSubmittingLead, setIsSubmittingLead] = useState<boolean>(false)
   const [leadStatus, setLeadStatus] = useState<string>("")
+  const [aboutContent, setAboutContent] = useState<AboutBucket>(content.mission)
+  const [flowContent, setFlowContent] = useState<FlowBucket>(content.community as FlowBucket)
   const [leadForm, setLeadForm] = useState<LeadFormData>({
     name: "",
     phone_number: "",
@@ -97,8 +131,8 @@ export default function Page() {
     project_description: "",
   })
 
-  const missionStatement = content.mission.statement
-  const timelineEntries = content.community.timeline.map(entry => ({
+  const missionStatement = aboutContent.statement
+  const timelineEntries = flowContent.timeline.map(entry => ({
     ...entry,
     layout: entry.layout as "left" | "right"
   }))
@@ -124,6 +158,98 @@ export default function Page() {
     }
 
     loadPricingData()
+  }, [])
+
+  useEffect(() => {
+    async function syncPantryBuckets() {
+      const aboutPayload: AboutBucket = {
+        title: content.mission.title,
+        statement: content.mission.statement,
+      }
+      const flowPayload: FlowBucket = {
+        title: content.community.title,
+        subtitle: content.community.subtitle,
+        timeline: content.community.timeline.map((entry) => ({
+          ...entry,
+          layout: entry.layout as "left" | "right",
+        })),
+      }
+      const imagesPayload: ImagesBucket = {
+        heroSlides: content.hero.slides.map((slide) => ({
+          image: slide.image,
+          alt: slide.alt,
+        })),
+        timelineImages: content.community.timeline.map((item) => ({
+          id: item.id,
+          image: item.image,
+          alt: item.alt,
+        })),
+        joinBackgroundImage: content.join.backgroundImage,
+        testimonialImages: content.testimonials.list.map((item) => ({
+          tempId: item.tempId,
+          imgSrc: item.imgSrc,
+        })),
+      }
+      const footerContactPayload: FooterContactBucket = {
+        email: content.footer.contact.email,
+        phone: content.footer.contact.phone,
+      }
+
+      const readBucket = async <T,>(bucketName: string, fallback: T): Promise<T> => {
+        const response = await fetch(`${PANTRY_BASE_URL}/${bucketName}`)
+        if (!response.ok) {
+          return fallback
+        }
+        return (await response.json()) as T
+      }
+
+      try {
+        const [aboutBucket, flowBucket, imagesBucket, footerContactBucket] = await Promise.all([
+          readBucket<AboutBucket>("about", aboutPayload),
+          readBucket<FlowBucket>("flow", flowPayload),
+          readBucket<ImagesBucket>("images", imagesPayload),
+          readBucket<FooterContactBucket>("footer-contact", footerContactPayload),
+        ])
+
+        setAboutContent(aboutBucket)
+        setFlowContent(flowBucket)
+
+        if (imagesBucket.heroSlides?.length) {
+          content.hero.slides = imagesBucket.heroSlides
+        }
+
+        if (imagesBucket.joinBackgroundImage) {
+          content.join.backgroundImage = imagesBucket.joinBackgroundImage
+        }
+
+        if (imagesBucket.timelineImages?.length) {
+          content.community.timeline = content.community.timeline.map((item) => {
+            const fromBucket = imagesBucket.timelineImages.find((image) => image.id === item.id)
+            return fromBucket ? { ...item, image: fromBucket.image, alt: fromBucket.alt } : item
+          })
+        }
+
+        if (imagesBucket.testimonialImages?.length) {
+          content.testimonials.list = content.testimonials.list.map((item) => {
+            const fromBucket = imagesBucket.testimonialImages.find((image) => image.tempId === item.tempId)
+            return fromBucket ? { ...item, imgSrc: fromBucket.imgSrc } : item
+          })
+        }
+
+        if (footerContactBucket.email) {
+          content.footer.contact.email = footerContactBucket.email
+        }
+
+        if (footerContactBucket.phone) {
+          content.footer.contact.phone = footerContactBucket.phone
+        }
+      } catch {
+        setAboutContent(aboutPayload)
+        setFlowContent(flowPayload)
+      }
+    }
+
+    syncPantryBuckets()
   }, [])
 
   async function handleLeadSubmit(event: FormEvent<HTMLFormElement>) {
@@ -188,7 +314,7 @@ export default function Page() {
 
         <div className="container mx-auto px-6 relative z-10">
           <motion.div className="max-w-4xl mx-auto text-center" {...fadeInUp}>
-            <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-12 text-gray-900">{content.mission.title}</h2>
+            <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-12 text-gray-900">{aboutContent.title}</h2>
             <TextGradientScroll
               text={missionStatement}
               className="text-2xl md:text-3xl lg:text-4xl font-medium leading-relaxed text-gray-800"
@@ -207,9 +333,9 @@ export default function Page() {
         <div className="relative z-10">
           <div className="container mx-auto px-6 mb-16">
             <motion.div className="text-center" {...fadeInUp}>
-              <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-6 text-gray-900">{content.community.title}</h2>
+              <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-6 text-gray-900">{flowContent.title}</h2>
               <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-                {content.community.subtitle}
+                {flowContent.subtitle}
               </p>
             </motion.div>
           </div>
