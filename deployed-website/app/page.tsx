@@ -85,6 +85,17 @@ type FooterContactBucket = {
   phone: string
 }
 
+type TestimonialsBucket = {
+  title: string
+  subtitle: string
+  list: {
+    tempId: number
+    testimonial: string
+    by: string
+    imgSrc: string
+  }[]
+}
+
 async function manageDatabase<T>({
   action,
   tableName,
@@ -124,6 +135,7 @@ export default function Page() {
   const [leadStatus, setLeadStatus] = useState<string>("")
   const [aboutContent, setAboutContent] = useState<AboutBucket>(content.mission)
   const [flowContent, setFlowContent] = useState<FlowBucket>(content.community as FlowBucket)
+  const [testimonialsContent, setTestimonialsContent] = useState<TestimonialsBucket>(content.testimonials as TestimonialsBucket)
   const [leadForm, setLeadForm] = useState<LeadFormData>({
     name: "",
     phone_number: "",
@@ -194,6 +206,11 @@ export default function Page() {
         email: content.footer.contact.email,
         phone: content.footer.contact.phone,
       }
+      const testimonialsPayload: TestimonialsBucket = {
+        title: content.testimonials.title,
+        subtitle: content.testimonials.subtitle,
+        list: content.testimonials.list,
+      }
 
       const readBucket = async <T,>(bucketName: string, fallback: T): Promise<T> => {
         const response = await fetch(`${PANTRY_BASE_URL}/${bucketName}`)
@@ -204,15 +221,17 @@ export default function Page() {
       }
 
       try {
-        const [aboutBucket, flowBucket, imagesBucket, footerContactBucket] = await Promise.all([
+        const [aboutBucket, flowBucket, imagesBucket, footerContactBucket, testimonialsBucket] = await Promise.all([
           readBucket<AboutBucket>("about", aboutPayload),
           readBucket<FlowBucket>("flow", flowPayload),
           readBucket<ImagesBucket>("images", imagesPayload),
           readBucket<FooterContactBucket>("footer-contact", footerContactPayload),
+          readBucket<TestimonialsBucket>("testimonials", testimonialsPayload),
         ])
 
         setAboutContent(aboutBucket)
         setFlowContent(flowBucket)
+        setTestimonialsContent(testimonialsBucket)
 
         if (imagesBucket.heroSlides?.length) {
           content.hero.slides = imagesBucket.heroSlides
@@ -230,10 +249,12 @@ export default function Page() {
         }
 
         if (imagesBucket.testimonialImages?.length) {
-          content.testimonials.list = content.testimonials.list.map((item) => {
+          content.testimonials.list = testimonialsBucket.list.map((item) => {
             const fromBucket = imagesBucket.testimonialImages.find((image) => image.tempId === item.tempId)
             return fromBucket ? { ...item, imgSrc: fromBucket.imgSrc } : item
           })
+        } else {
+          content.testimonials.list = testimonialsBucket.list
         }
 
         if (footerContactBucket.email) {
@@ -246,6 +267,7 @@ export default function Page() {
       } catch {
         setAboutContent(aboutPayload)
         setFlowContent(flowPayload)
+        setTestimonialsContent(testimonialsPayload)
       }
     }
 
@@ -474,10 +496,10 @@ export default function Page() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-6xl font-black tracking-wider text-gray-900 mb-6">
-              {content.testimonials.title}
+              {testimonialsContent.title}
             </h2>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-              {content.testimonials.subtitle}
+              {testimonialsContent.subtitle}
             </p>
           </motion.div>
 
