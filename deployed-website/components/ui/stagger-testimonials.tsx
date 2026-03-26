@@ -8,11 +8,9 @@ import { content } from "@/lib/content"
 
 const SQRT_5000 = Math.sqrt(5000)
 
-const testimonials = content.testimonials.list
-
 interface TestimonialCardProps {
   position: number
-  testimonial: (typeof testimonials)[0]
+  testimonial: (typeof content.testimonials.list)[0]
   handleMove: (steps: number) => void
   cardSize: number
   isMobile: boolean
@@ -87,7 +85,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ position, testimonial
 export const StaggerTestimonials: React.FC = () => {
   const [cardSize, setCardSize] = useState(365)
   const [isMobile, setIsMobile] = useState(false)
-  const [testimonialsList, setTestimonialsList] = useState(testimonials)
+  const [testimonialsList, setTestimonialsList] = useState(content.testimonials.list)
 
   const handleMove = (steps: number) => {
     const newList = [...testimonialsList]
@@ -123,6 +121,10 @@ export const StaggerTestimonials: React.FC = () => {
     window.addEventListener("resize", updateSize)
     return () => window.removeEventListener("resize", updateSize)
   }, [])
+
+  useEffect(() => {
+    setTestimonialsList(content.testimonials.list)
+  }, [content.testimonials.list])
 
   return (
     <div className="relative w-full overflow-hidden" style={{ height: isMobile ? 500 : 600, backgroundColor: 'var(--background)' }}>
